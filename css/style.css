@@ -1,0 +1,22 @@
+.side-nav {
+    position: fixed;
+    width: 200px;
+    line-height: 1.2;
+}
+
+.side-nav li{
+    margin-bottom: 0;
+}
+
+.side-nav li a{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+body > .container > .row {
+    margin-left: 200px;
+}
+
+.side-nav li a, .side-nav li a:not(.button) {
+    color: #424242;
+}
