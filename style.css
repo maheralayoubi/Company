@@ -1,59 +1,206 @@
 * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	font-family: Roboto, sans-serif;
 }
 
 body {
-	font-size: 16px;
-	margin: 0;
+	font-family: 'calibri', sans-serif;
 }
 
-nav {
-	position: fixed;
-	width: 200px;
-	height: 100%;
-	padding: 15px 0;
-	background: #ddd;
-	background:
-		linear-gradient(rgba(#fff, 0.3), rgba(#fff, 0.3)),
-		linear-gradient(to bottom right, rgba(#035, 0.6), rgba(#e43, 0.6)),
-		url('https://tinyurl.com/lj6m59k') center / cover no-repeat;
-
-	a {
-		display: block;
-		padding: 5px 0;
-		text-decoration: none;
-		text-indent: 20px;
-		color: #fff;
-		&:hover {
-			background: radial-gradient(circle, rgba(#fff, 0.1), rgba(#fff, 0.03));
-		}
-		&.current {
-			position: relative;
-			font-weight: bold;
-			background: radial-gradient(circle, rgba(#fff, 0.3), rgba(#fff, 0.1));
-			&::after {
-				content: '';
-				position: absolute;
-				top: 50%; right: 0;
-				transform: translate(50%, -50%) rotate(45deg);
-				transform-origin: center;
-				width: 15px; height: 15px;
-				background: #fff;
-			}
-		}
-	}
+a {
+  text-decoration: none;
+  cursor: pointer;
 }
 
-main {
-	position: relative;
-	left: 200px;
-	width: calc(100% - 200px);
-	section {
-		min-height: 100vh;
-		padding: 20px;
-		h1, p { margin-top: 0; }
-		h1 { font-weight: 500; }
-		p:last-child { margin-bottom: 0; }
-	}
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+h1 {
+  font-size: 7vw;
+  font-weight: 900;
+  text-align: center;
+  color: rgb(0,96,172);
+  -webkit-text-stroke: 1px black;
+}
+h2 {
+  font-size: 9vw;
+  margin-top: 40%;
+}
+h3 {
+  color: white;
+  font-size: 2.2vw;
+}
+
+.explore-nav-box {
+    background-color: rgba(0,96,172,.8);
+    max-width: 9.13em;
+    width: 10%;
+    min-height: 6em;
+    padding: 1em 0.5em 0.5em;
+    display: block;
+    border-right: 2px solid rgba(0,0,0,.6);
+    text-align: center;
+    border-radius: 25px;
+    margin: 0 .25em;
+
+    &:last-child {
+        border-right: 0;
+    }
+}
+
+.explore-nav-box:hover, .explore-nav-box:focus {
+  background-color: #004d8a;
+}
+
+svg {
+  fill: white;
+  width: 34px;
+  height: 34px;
+}
+
+.box {
+  display: flex;
+  margin: auto;
+  margin-top: 3em;
+  height: 50vw;
+  width: 50vw;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+#blockOne {
+  background-color: yellow;
+}
+#blockTwo {
+  background-color: orange;
+}
+#blockThree {
+  background-color: red;
+}
+#blockFour {
+  background-color: green;
+}
+#blockFive {
+  background-color: blue;
+}
+
+/* ----------- SIDE NAV ---------- */
+.sticky-side-nav {
+    position: fixed;
+    top: 5em;
+    top: 15vh;
+    right: 0;
+    background-color: #004d8a;
+    transition: right 0.25s;
+    z-index: 11;
+}
+
+.sticky-side-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sticky-side-nav ul li {
+    position: relative;
+    color: #FFFFFF;
+    line-height: 16px;
+    margin: 0;
+    width: 44px;
+    height: 44px;
+    transition: background-color 0.5s;
+}
+
+.sticky-side-nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: background-color 0s;
+    .navlabels {background-color: #002645;}
+}
+
+.sticky-side-nav ul li svg {
+    fill: #FFFFFF;
+    height: 44px;
+    width: 39px;
+    padding: 9px 6px 6px 9px;
+}
+
+.sticky-side-nav ul li a {
+    display: block;
+    height: 44px;
+}
+
+.sticky-side-nav .current {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.current > .navlabels {
+    background-color: #00173D;
+}
+
+.sticky-side-nav ul.navicons {
+    right: 0;
+}
+
+.sticky-side-nav.in {
+    right: 0;
+}
+
+.navlabels {
+    position: absolute;
+    right: -300px;
+    height: 44px;
+    width: 120px;
+    line-height: 16px;
+    padding: .8em;
+    z-index: -2;
+    color: #FFFFFF;
+    font-size: 16px;
+    background-color: rgba(0,96,172,.8);
+    text-decoration: none;
+    transition: right 0.5s cubic-bezier(0.3, 0, 0, 1);
+}
+
+.navlabels:hover, .navlabels:focus {
+    background-color: #002645;
+}
+
+.side-nav-overlay {
+    display: block;
+    position: fixed;
+    top: 5em;
+    top: 15vh;
+    right: 0;
+    height: 264px;
+    width: 44px;
+    z-index: -1;
+    background-color: #005ba4;
+}
+
+.slick-slide, .slick-slide img, .slick-slider .slick-list, .slick-track {
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    transform: initial;
+}
+
+/* ----------- MEDIA QUERIES ---------- */
+@media screen and (max-width: 600px) {
+  h3 {
+    display:none;
+  }
+  svg {
+    margin-top: 35%;
+    width: 6vw;
+  }
+  .navicons {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  h3 {
+    font-size: 2.2em;
+  }
 }
