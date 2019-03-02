@@ -19,7 +19,7 @@ ul {
   z-index: 1;
   top: 0;
   left: 0;
-  width: 100px;
+  width: 300px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
@@ -27,34 +27,40 @@ ul {
   display: flex;
   flex-flow: column wrap;
   height: 85vh;
+  background: #FFFF;
   -webkit-transform: translate(0, -100%);
           transform: translate(0, -100%);
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.nav__list--active {
+.nav__list {
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
 }
 .nav__item {
-  flex: 1;
   position: relative;
+  height: 60px;
 }
+
+ul li p {
+  float: right;
+  padding: 30px;
+  margin-right: 20px;
+}
+
 .nav__link {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  height: 100%;
-  width: 100%;
   top: 0;
   left: 0;
   text-decoration: none;
   font-size: 24px;
-  background: #2b3033;
+  background: #FFFF;
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .nav__link:hover {
-  background: #272b2e;
+  background: #ffff;
 }
 @media (max-width: 640px) {
   .nav {
@@ -72,12 +78,15 @@ ul {
   justify-content: center;
   align-items: center;
   z-index: 2;
-  background: #2b3033;
+  background: #FFFF;
   cursor: pointer;
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.burger:hover {
-  background: #272b2e;
+.burger img{
+  max-width: 150px;
+  padding: 5px;
+  margin-right: 100px;
+
 }
 .burger__patty {
   position: relative;
