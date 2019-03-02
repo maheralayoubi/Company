@@ -14,12 +14,17 @@ ul {
   margin: 0;
 }
 
+#top-menu li.active a {
+    border-top: 3px solid #333;
+    color: #333;
+}
+
 .nav {
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  width: 300px;
+  width: 320px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
@@ -39,12 +44,15 @@ ul {
 .nav__item {
   position: relative;
   height: 60px;
+  margin-top: 30px;
 }
 
 ul li p {
   float: right;
   padding: 30px;
   margin-right: 20px;
+  color: #000;
+  font-size: 16px;
 }
 
 .nav__link {
