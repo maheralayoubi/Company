@@ -165,20 +165,7 @@ ul li p {
   -webkit-perspective: 1000px;
           perspective: 1000px;
 }
-.panel__content {
-  will-change: transform;
-  -webkit-transform: scale(0.7) rotateX(-230deg);
-          transform: scale(0.7) rotateX(-230deg);
-  -webkit-transform-origin: center 80%;
-          transform-origin: center 80%;
-  opacity: 0;
-  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.panel__content--active {
-  -webkit-transform: none;
-          transform: none;
-  opacity: 1;
-}
+
 .panel__headline {
   font-weight: 700;
   opacity: 0.8;
@@ -238,7 +225,7 @@ ul li p {
   color: #FFFF;
   font-weight: 500;
   font-size: 70px;
-  margin: -80px 0 25px 0;
+  margin: 0px 0 20px 0;
   line-height: 1.8;
 }
 
@@ -259,18 +246,103 @@ ul li p {
     background-color: #fff;
 }
 
-.b-red {
-  background: #e68568;
-}
 
 .b-green {
   background: #68e6ac;
 }
 
 .b-yellow {
-  background: #e6d068;
+  background-image: url("second-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.panel__headline_two{
+  color: #FFFF;
+  font-weight: 500;
+  font-size: 60px;
+  margin: 0px 0 20px 0;
+  line-height: 1.8;
+}
+.panel__content_two p{
+  color: #FFFF;
+  font-size: 20px;
+  margin: 0px 0 20px 0;
+  line-height: 1.8;
 }
 
+.panel__content_two button {
+    margin-left: 150px;
+    float: right;
+    transition: all .5s ease;
+    color: #fff;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 1;
+    font-size: 20px;
+    background-color : transparent;
+    padding: 15px 50px;
+    outline: none;
+}
+.panel__content_two button:hover{
+    color: #001F3F;
+    background-color: #fff;
+}
+.panel__wrapper_two {
+  padding: 7vh 2vw;
+  width: 60rem;
+  padding-right: 30px;
+  padding-left: 120px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.b-red {
+  background-image: url("third-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.panel__headline_three{
+  color: #000;
+  font-weight: 500;
+  font-size: 60px;
+  margin: 0px 0 20px 0;
+  line-height: 1.8;
+}
+.panel__content_three p{
+  color: #000;
+  font-size: 20px;
+  margin: 0px 0 20px 0;
+  line-height: 1.8;
+}
+
+.panel__content_three button {
+    margin-left: 150px;
+    float: right;
+    transition: all .5s ease;
+    color: #000;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 1;
+    font-size: 20px;
+    background-color : transparent;
+    padding: 15px 50px;
+    outline: none;
+}
+.panel__content_three button:hover{
+    color: #fff;
+    background-color: #000;
+}
+.panel__wrapper_three {
+  padding: 7vh 2vw;
+  width: 60rem;
+  padding-right: 30px;
+  padding-left: 120px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
 .logo {
   position: fixed;
   bottom: 3vh;
