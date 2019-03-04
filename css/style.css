@@ -31,7 +31,7 @@ ul {
 .nav__list {
   display: flex;
   flex-flow: column wrap;
-  height: 85vh;
+  height: 60vh;
   background: #FFFF;
   -webkit-transform: translate(0, -100%);
           transform: translate(0, -100%);
@@ -53,6 +53,7 @@ ul li p {
   margin-right: 20px;
   color: #000;
   font-size: 16px;
+  font-weight: 600;
 }
 
 .nav__link {
@@ -247,10 +248,6 @@ ul li p {
 }
 
 
-.b-green {
-  background: #68e6ac;
-}
-
 .b-yellow {
   background-image: url("second-background.png");
   background-repeat: no-repeat;
@@ -343,19 +340,83 @@ ul li p {
   -webkit-perspective: 1000px;
           perspective: 1000px;
 }
-.logo {
-  position: fixed;
-  bottom: 3vh;
-  right: 3vw;
-  z-index: 2;
+
+.b-green {
+  background-image: url("forth-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.logo img {
-  width: 65px;
-  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+.panel__headline_four{
+  color: #000;
+  font-weight: 500;
+  font-size: 60px;
+  margin: 0px 0 20px 0;
+  line-height: 1.8;
 }
-.logo img:hover {
-  -webkit-transform: rotate(180deg) scale(1.1);
-          transform: rotate(180deg) scale(1.1);
+.panel__content_four p{
+  color: #000;
+  font-size: 20px;
+  margin: 0px 0 20px 0;
+  line-height: 1.8;
+}
+
+.panel__content_four button {
+    margin-top: 30px;
+    transition: all .5s ease;
+    color: #000;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 1;
+    font-size: 20px;
+    background-color : transparent;
+    padding: 15px 70px;
+    outline: none;
+}
+
+.panel__wrapper_four {
+  padding: 7vh 2vw;
+  width: 60rem;
+  padding-right: 30px;
+  padding-left: 120px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+.panel__content_four button:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.form{
+  padding: 20px 10px;
+}
+.form input{
+  padding: 10px 10px;
+  padding-right: 250px;
+  margin: 15px 0;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+::placeholder {
+  color: #6c6c6c;
+  font-size: 15px;
+}
+.language{
+  margin-right: 20px;
+}
+.language p{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 10px;
+  text-align: center;
+  float: right;
+  padding-right: 30px;
+}
+.footer{
+  margin-top: 120px;
+}
+.footer p{
+  font-size: 12px;
+  padding: 0 10px;
+  text-align: center;
 }
