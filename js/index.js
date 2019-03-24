@@ -4,17 +4,14 @@ var doc = $(document);
 var l = $('.scrolly');
 var panel = $('.panel');
 var vh = $(window).height();
-
 var openMenu = function() {
   burger.classList.toggle('burger--active');
   menu.classList.toggle('nav__list--active');
 };
 
-
 $('.card').click(function(){
   $(this).toggleClass('flipped');
 });
-
 // reveal content of first panel by default
 panel.eq(0).find('.panel__content').addClass('panel__content--active');
 
@@ -37,7 +34,6 @@ var scrollFx = function() {
     }
   }
 };
-
 var scrolly = function(e) {
   e.preventDefault();
   var target = this.hash;
@@ -49,7 +45,6 @@ var scrolly = function(e) {
       window.location.hash = target;
   });
 }
-
 var init = function() {
   burger.addEventListener('click', openMenu, false);
   window.addEventListener('scroll', scrollFx, false);
