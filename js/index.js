@@ -8,7 +8,6 @@ var openMenu = function() {
   burger.classList.toggle('burger--active');
   menu.classList.toggle('nav__list--active');
 };
-
 $('.card').click(function(){
   $(this).toggleClass('flipped');
 });
@@ -51,5 +50,4 @@ var init = function() {
   window.addEventListener('load', scrollFx, false);
   $('a[href^="#"]').on('click',scrolly);
 };
-
 doc.on('ready', init);

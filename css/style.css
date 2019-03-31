@@ -621,7 +621,6 @@ ul li p {
   {
    height:175px;
   }
-
 }
 @media all and (max-width : 752px) {
 
@@ -633,7 +632,6 @@ ul li p {
   {
     margin-top: 3%;
   }
-
 }
 @media all and (max-width : 390px) {
 
@@ -667,5 +665,4 @@ ul li p {
   {
     margin-left: 4%;
   }
-
 }
