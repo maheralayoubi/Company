@@ -31,6 +31,11 @@ ul {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+.slideInLeft {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
 .nav__list {
   display: flex;
   flex-flow: column wrap;
@@ -218,12 +223,6 @@ ul li p {
   color: #e6d068;
 }
 
-.b-blue {
-  background-image: url("first-backround.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 .panel__headline_one{
   color: #FFFF;
   font-weight: 500;
