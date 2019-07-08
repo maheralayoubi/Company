@@ -205,22 +205,16 @@ ul li p {
     font-size: 16px;
   }
 }
-
-.c-blue {
-  background-image: url("first-backround.png");
-  color: #5fc7ea;
+.first-sec-img {
+  display: inline-block;
 }
-
-.c-red {
-  color: #e68568;
+.zero-image {
+  max-width: 10rem;
+  max-height: 20rem;
 }
-
-.c-green {
-  color: #68e6ac;
-}
-
-.c-yellow {
-  color: #e6d068;
+.arrow-image {
+  max-width: 3.5rem;
+  max-height: 3.5rem;
 }
 
 .panel__headline_one{
