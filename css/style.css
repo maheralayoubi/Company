@@ -179,12 +179,7 @@ ul li p {
   font-size: 48px;
   margin: 0 0 25px 0;
 }
-.panel p {
-  margin: 0 0 25px 0;
-  color: #1a1a1a;
-  font-size: 24px;
-  max-width: 800px;
-}
+
 .panel p:last-child {
   margin-bottom: 0;
 }
@@ -208,6 +203,7 @@ ul li p {
   display: inline-block;
   width: 100rem;
   margin-left: 25rem;
+  margin-top: -15rem;
 }
 .zero-image {
   max-width: 11rem;
@@ -246,6 +242,24 @@ ul li p {
 .first-sec-text {
   margin-left: 30rem;
   margin-top: -40rem;
+  color: #fff;
+  max-width: 800px;
+}
+.first-sec-button {
+  margin-left: 30rem;
+  transition: all .5s ease;
+  color: #fff;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 1;
+  font-size: 20px;
+  background-color: transparent;
+  padding: 15px 50px;
+  outline: none;
+}
+.first-sec-button:hover{
+    color: #001F3F;
+    background-color: #fff;
 }
 
 .panel__content button {
