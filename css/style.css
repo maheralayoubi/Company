@@ -243,6 +243,10 @@ ul li p {
   margin: 0px 0 20px 0;
   line-height: 1.8;
 }
+.first-sec-text {
+  margin-left: 30rem;
+  margin-top: -40rem;
+}
 
 .panel__content button {
     margin-top: 75px;
