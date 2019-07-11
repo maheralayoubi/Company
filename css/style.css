@@ -203,7 +203,7 @@ ul li p {
   display: inline-block;
   width: 100rem;
   margin-left: 25rem;
-  margin-top: -5rem;
+  margin-top: -1rem;
 }
 .zero-image {
   max-width: 11rem;
@@ -256,6 +256,16 @@ ul li p {
   max-width: 800px;
   font-size: 20px;
   font-weight: bold;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+}
+.first-sec-text-two-text {
+  margin-left: 26.5rem;
+  margin-top: 1rem;
+  color: #fff;
+  max-width: 800px;
+  font-size: 18px;
   animation-duration: 1s;
   animation-delay: 1.5s;
   animation-fill-mode: both;
