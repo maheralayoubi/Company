@@ -203,7 +203,7 @@ ul li p {
   display: inline-block;
   width: 100rem;
   margin-left: 25rem;
-  margin-top: -15rem;
+  margin-top: -5rem;
 }
 .zero-image {
   max-width: 11rem;
@@ -223,11 +223,11 @@ ul li p {
   animation-fill-mode: both;
 }
 .hundred-image {
-  max-width: 60rem;
-  max-height: 50rem;
-  margin-bottom: 25rem;
+  min-width: 60rem;
+  max-height: 35rem;
+  margin-bottom: 31.5rem;
   margin-left: 3rem;
-  animation-duration: 0.7s;
+  animation-duration: 1s;
   animation-delay: 1.1s;
   animation-fill-mode: both;
 }
@@ -240,17 +240,35 @@ ul li p {
   line-height: 1.8;
 }
 .first-sec-text {
-  margin-left: 30rem;
+  margin-left: 26.5rem;
   margin-top: -45rem;
   color: #fff;
   max-width: 800px;
   font-size: 21px;
-  animation-duration: 0.7s;
+  animation-duration: 1s;
   animation-delay: 1.5s;
   animation-fill-mode: both;
 }
+.first-sec-text-two {
+  margin-left: 26.5rem;
+  margin-top: 6rem;
+  color: #fff;
+  max-width: 800px;
+  font-size: 20px;
+  font-weight: bold;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+}
+.news-line {
+  display: inline-block;
+  width: 500px;
+  border-bottom: 1.5px solid #fff;
+  line-height: 0;
+  margin-bottom: 6px;
+}
 .first-sec-button {
-  margin-left: 30rem;
+  margin-left: 26.5rem;
   margin-top: 2rem;
   transition: all .5s ease;
   color: #fff;
