@@ -6,7 +6,7 @@ body {
   font-family: 'Montserrat';
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background-color: #000000f0;
+  background-color: #111111;
 }
 
 ul {
@@ -244,9 +244,14 @@ ul li p {
   margin-top: -45rem;
   color: #fff;
   max-width: 800px;
+  font-size: 21px;
+  animation-duration: 0.7s;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
 }
 .first-sec-button {
   margin-left: 30rem;
+  margin-top: 2rem;
   transition: all .5s ease;
   color: #fff;
   border: 1px solid white;
@@ -256,6 +261,9 @@ ul li p {
   background-color: transparent;
   padding: 15px 50px;
   outline: none;
+  animation-duration: 0.7s;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
 }
 .first-sec-button:hover{
     color: #001F3F;
