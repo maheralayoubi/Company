@@ -334,43 +334,6 @@ ul li p {
 }
 
 
-.b-yellow {
-  background-image: url("second-background.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.panel__headline_two{
-  color: #FFFF;
-  font-weight: 500;
-  font-size: 60px;
-  margin: 0px 0 20px 0;
-  line-height: 1.8;
-}
-.panel__content_two p{
-  color: #FFFF;
-  font-size: 20px;
-  margin: 0px 0 20px 0;
-  line-height: 1.8;
-}
-
-.panel__content_two button {
-    margin-left: 150px;
-    float: right;
-    transition: all .5s ease;
-    color: #fff;
-    border: 1px solid white;
-    text-align: center;
-    line-height: 1;
-    font-size: 20px;
-    background-color : transparent;
-    padding: 15px 50px;
-    outline: none;
-}
-.panel__content_two button:hover{
-    color: #001F3F;
-    background-color: #fff;
-}
 .panel__wrapper_two {
   width: 80rem;
   padding-right: 30px;
