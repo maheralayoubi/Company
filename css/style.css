@@ -348,45 +348,7 @@ ul li p {
   background-size: cover;
 }
 
-.panel__headline_three{
-  color: #000;
-  font-weight: 500;
-  font-size: 60px;
-  margin: 0px 0 20px 0;
-  line-height: 1.8;
-}
-.panel__content_three p{
-  color: #000;
-  font-size: 20px;
-  margin: 0px 0 20px 0;
-  line-height: 1.8;
-}
 
-.panel__content_three button {
-    margin-left: 150px;
-    float: right;
-    transition: all .5s ease;
-    color: #000;
-    border: 1px solid #000;
-    text-align: center;
-    line-height: 1;
-    font-size: 20px;
-    background-color : transparent;
-    padding: 15px 50px;
-    outline: none;
-}
-.panel__content_three button:hover{
-    color: #fff;
-    background-color: #000;
-}
-.panel__wrapper_three {
-  padding: 7vh 2vw;
-  width: 60rem;
-  padding-right: 30px;
-  padding-left: 120px;
-  -webkit-perspective: 1000px;
-          perspective: 1000px;
-}
 
 .b-green {
   background-image: url("forth-background.png");
