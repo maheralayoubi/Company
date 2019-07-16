@@ -297,15 +297,20 @@ ul li p {
     color: #001F3F;
     background-color: #fff;
 }
-.third-sec-img {
+.third-sec-images {
   display: inline-block;
-  width: 100rem;
-  margin-left: 35rem;
+  width: 85rem;
+  margin-left: 5rem;
   margin-top: -1rem;
 }
-.left-img {
-  max-width: 20rem;
-  max-height: 25rem;
+.third-sec-img {
+  max-width: 25rem;
+  max-height: 20rem;
+  margin: 1rem;
+  transition: transform .2s;
+}
+.third-sec-img:hover {
+  transform: scale(1.1);
 }
 
 .panel__content button {
