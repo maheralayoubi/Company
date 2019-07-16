@@ -356,14 +356,8 @@ ul li p {
           perspective: 1000px;
 }
 
-.b-green {
-  background-image: url("forth-background.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 .panel__headline_four{
-  color: #000;
+  color: #fff;
   font-weight: 500;
   font-size: 60px;
   margin: 0px 0 20px 0;
@@ -375,20 +369,6 @@ ul li p {
   margin: 0px 0 20px 0;
   line-height: 1.8;
 }
-
-.panel__content_four button {
-    margin-top: 30px;
-    transition: all .5s ease;
-    color: #000;
-    border: 1px solid #000;
-    text-align: center;
-    line-height: 1;
-    font-size: 20px;
-    background-color : transparent;
-    padding: 15px 70px;
-    outline: none;
-}
-
 .panel__wrapper_four {
   padding: 7vh 2vw;
   width: 60rem;
@@ -397,9 +377,25 @@ ul li p {
   -webkit-perspective: 1000px;
           perspective: 1000px;
 }
+.panel__content_four button {
+    margin-top: 30px;
+    transition: all .5s ease;
+    color: #000;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 1;
+    font-size: 20px;
+    background-color : transparent;
+    padding: 15px 70px;
+    outline: none;
+    background-color: #fff;
+}
 .panel__content_four button:hover{
-    color: #fff;
+    color: #FFF;
     background-color: #000;
+}
+
+.b-green {
 }
 
 .form{
@@ -410,10 +406,11 @@ ul li p {
   padding-right: 250px;
   margin: 15px 0;
   border: none;
-  border-bottom: 1px solid #000;
+  border: 1px solid #FFF;
+  background: transparent;
 }
 ::placeholder {
-  color: #6c6c6c;
+  color: #FFF;
   font-size: 15px;
 }
 .language{
