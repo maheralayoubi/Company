@@ -307,10 +307,12 @@ ul li p {
   max-width: 25rem;
   max-height: 20rem;
   margin: 1rem;
-  transition: transform .2s;
+  transition: transform .4s;
+  opacity: 0.6;
 }
 .third-sec-img:hover {
   transform: scale(1.1);
+  opacity: 1;
 }
 
 .panel__content button {
