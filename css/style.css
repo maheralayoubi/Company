@@ -297,6 +297,16 @@ ul li p {
     color: #001F3F;
     background-color: #fff;
 }
+.third-sec-img {
+  display: inline-block;
+  width: 100rem;
+  margin-left: 35rem;
+  margin-top: -1rem;
+}
+.left-img {
+  max-width: 20rem;
+  max-height: 25rem;
+}
 
 .panel__content button {
     margin-top: 75px;
