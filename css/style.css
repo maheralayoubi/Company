@@ -341,15 +341,6 @@ ul li p {
           perspective: 1000px;
 }
 
-.b-red {
-  background-image: url("third-background.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-
-
 .b-green {
   background-image: url("forth-background.png");
   background-repeat: no-repeat;
