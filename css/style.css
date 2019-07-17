@@ -374,6 +374,7 @@ ul li p {
 .panel__wrapper_four {
   padding: 7vh 2vw;
   width: 60rem;
+  margin-left: -10rem;
   padding-right: 30px;
   padding-left: 120px;
   -webkit-perspective: 1000px;
