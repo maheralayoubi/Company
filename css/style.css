@@ -19,7 +19,6 @@ ul {
     border-top: 3px solid #333;
     color: #333;
 }
-
 .nav {
   position: fixed;
   z-index: 1;
@@ -52,7 +51,6 @@ ul {
   height: 60px;
   margin-top: 30px;
 }
-
 ul li p {
   float: right;
   padding: 30px;
@@ -61,7 +59,6 @@ ul li p {
   font-size: 16px;
   font-weight: 600;
 }
-
 .nav__link {
   display: flex;
   justify-content: center;
@@ -397,7 +394,6 @@ ul li p {
     color: #FFF;
     background-color: #000;
 }
-
 .b-green {
 }
 
@@ -535,7 +531,6 @@ ul li p {
   }
 }
 @media all and (max-width : 390px) {
-
   .card
   {
   width:100%;
