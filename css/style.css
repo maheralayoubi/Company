@@ -399,6 +399,10 @@ ul li p {
 
 .form{
   padding: 20px 0px;
+  display: table-caption;
+}
+label {
+  color: #fff;
 }
 .form input{
   padding: 10px 10px;
@@ -409,7 +413,7 @@ ul li p {
   background: transparent;
 }
 ::placeholder {
-  color: #FFF;
+  color: grey;
   font-size: 15px;
 }
 .language{
