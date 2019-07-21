@@ -9,6 +9,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="slider/style.css">
       <link rel="stylesheet" href="animate.min.css">
    </head>
    <body>
@@ -64,6 +65,62 @@
       <section class="panel b-yellow" id="2">
          <article class="panel__wrapper_two">
             <div class="panel__content_two">
+
+              <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img class="slider-img" src="https://i.postimg.cc/90vtwmwd/image1.jpg" style="width:100%">
+                  <div class="text">
+                    <h2>HTML</h2>
+                    <p>Hypertext Markup Language is the standard markup <br>
+                       language for documents designed to be displayed <br>
+                       in a web browser. It can be assisted by technologies <br>
+                       such as Cascading Style Sheets and scripting <br>
+                       languages such as JavaScript.</p>
+                          <div class="btn">
+                            <a href="#">Learn More</a>
+                          </div>
+                  </div>
+                </div>
+
+                <div class="mySlides fade">
+                  <img class="slider-img" src="https://i.postimg.cc/NGVxz4CK/image2.jpg" style="width:100%">
+                  <div class="text">
+                    <h2>CSS</h2>
+                    <p>Cascading Style Sheets is a style sheet language <br>
+                       used for describing the presentation of a document <br>
+                       written in a markup language like HTML. CSS is a <br>
+                       cornerstone technology of the World Wide Web,<br>
+                       alongside HTML and JavaScript.</p>
+                    <div class="btn">
+                      <a href="#">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mySlides fade">
+                  <img class="slider-img" src="https://i.postimg.cc/TYDcMDBC/image3.jpg" style="width:100%">
+                  <div class="text">
+                    <h2>JScript</h2>
+                    <p>JavaScript, often abbreviated as JS, is a high-level,  <br>
+                       interpreted programming language that conforms to the <br>
+                       ECMAScript specification. JavaScript has curly-bracket <br>
+                      syntax, dynamic typing, prototype-based object-orientation, <br>
+                       and first-class functions.</p>
+                       <div class="btn">
+                         <a href="#">Learn More</a>
+                       </div>
+                  </div>
+                </div>
+
+                <a class="next" onclick="plusSlides(1)">&#10093;</a>
+              </div>
+
+              <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
             </div>
          </article>
       </section>

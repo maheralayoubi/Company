@@ -350,7 +350,7 @@ ul li p {
 .panel__wrapper_two {
   width: 80rem;
   padding-right: 30px;
-  padding-left: 120px;
+  padding-left: 10px;
   -webkit-perspective: 1000px;
           perspective: 1000px;
 }
