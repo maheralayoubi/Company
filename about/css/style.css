@@ -1,0 +1,185 @@
+/*google Font*/
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: liner-gradient(to bottom #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.5);
+}
+
+* {
+    font-family: var(--Patua);
+}
+
+body {
+    background: #B3B3B3;
+}
+
+.navbar {
+    background: #1D1D1D;
+}
+
+.section-left {
+    display: flex;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo img {
+    width: 150px;
+    margin: 10px 0px;
+}
+
+.list ul {
+    display: flex;
+    padding: 20px 0px;
+    margin: 10px;
+}
+
+.list ul li {
+    color: grey;
+    padding: 0px 30px;
+    list-style: none;
+    font-family: var(--Patua);
+}
+
+.btn {
+    background: #B3B3B3;
+    border-radius: 20px;
+    font-size: 18px;
+    color: blac;
+    font-family: var(--Patua);
+    width: 160px;
+
+}
+
+/*icon*/
+.icon {
+    padding: 20px 40px;
+}
+
+.icon span {
+    margin: 0px 10px;
+    color: grey;
+    font-weight: bold;
+    font-family: var(--Patua);
+}
+
+.fa-caret-right {
+    margin: 0px 10px;
+}
+
+/*section-1*/
+.section-1 {
+    margin: 30px;
+}
+
+.title {
+    margin: 0px 200px;
+}
+
+.text {
+    margin: 0px 200px;
+    font-size: 18px;
+}
+
+.section-1 ul li {
+    margin: 20px 0;
+    font-weight: bold;
+    list-style: none;
+}
+
+/*section-2*/
+.section-2 {
+    text-align: center;
+}
+
+.part-1 {
+    background: #484848;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    left: -5px;
+    top: -70px;
+    z-index: 1;
+}
+
+.part-2 {
+    width: 550px;
+    height: 320px;
+    display: inline-block;
+    border: black solid 2px;
+    position: relative;
+    left: -100px;
+
+}
+
+.part-2 h1 {
+    color: black;
+    margin: 40px 120px;
+    border-bottom: 2px solid black;
+    width: 70%;
+}
+
+.part-2 .text {
+    margin: 0px 120px;
+    font-size: 11px;
+    color: black;
+}
+
+.part-2 .text span {
+    padding: 0px 10px;
+}
+
+/*section-3*/
+.menu {
+    text-align: left;
+    margin: 100px 100px;
+}
+
+.menu .line1 {
+    border-bottom: solid black 1px;
+    padding: 10px;
+    width: 80%;
+}
+
+.menu span {
+    padding: 0px 150px;
+}
+
+/*footer*/
+.footer {
+    background: black;
+    padding: 8px;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.top {
+    background: black;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    right: 0;
+    color: white;
+    text-align: center;
+    margin-top: -100px;
+    border-radius: 10px 0px 10px 0px;
+}

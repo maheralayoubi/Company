@@ -276,6 +276,7 @@ ul li p {
 }
 .first-sec-button {
   margin-left: 26.5rem;
+  cursor: pointer;
   margin-top: 2rem;
   transition: all .5s ease;
   color: #fff;
@@ -289,6 +290,13 @@ ul li p {
   animation-duration: 0.7s;
   animation-delay: 1.5s;
   animation-fill-mode: both;
+}
+.about-link {
+  color: #fff;
+  text-decoration: none;
+}
+.about-link {
+  color: #001F3F;
 }
 .first-sec-button:hover{
     color: #001F3F;
