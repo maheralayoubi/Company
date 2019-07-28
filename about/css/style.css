@@ -105,7 +105,6 @@ body {
 .section-2 {
     text-align: center;
 }
-
 .part-1 {
     background: #484848;
     width: 200px;
@@ -116,7 +115,6 @@ body {
     top: -10px;
     z-index: 1;
 }
-
 .part-2 {
     width: 630px;
     height: 330px;
@@ -126,7 +124,6 @@ body {
     left: -100px;
 
 }
-
 .part-2 h1 {
     color: black;
     margin: 40px 120px;
@@ -145,7 +142,6 @@ body {
 }
 
 /*section-3*/
-
 .section-3 {
   max-width: 63rem;
   min-height: 30rem;
@@ -178,7 +174,6 @@ body {
     color: white;
     padding: 10px;
 }
-
 .top {
     background: black;
     padding: 10px;
