@@ -520,7 +520,9 @@ label {
   .slideInLeft {
     display: none;
   }
-
+  .panel {
+    margin-left: 5rem;
+  }
 }
 @media all and (max-width : 752px) {
 
