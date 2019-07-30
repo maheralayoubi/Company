@@ -533,6 +533,12 @@ label {
   .first-sec-button {
     margin-left: 2rem;
   }
+  .first-sec-text-two  {
+    margin-left: 2rem;
+  }
+  .first-sec-text-two-text {
+    margin-left: 2rem;
+  }
 }
 
 @media all and (max-width: 1000px){
