@@ -220,7 +220,7 @@ ul li p {
   animation-fill-mode: both;
 }
 .hundred-image {
-  min-width: 60rem;
+  width: 60rem;
   max-height: 35rem;
   margin-bottom: 31.5rem;
   margin-left: 3rem;
@@ -515,6 +515,25 @@ label {
   text-align: left;
   font-weight: bold;
 }
+@media all and (max-width: 1550px){
+  .first-sec-img {
+    width: 100%;
+    margin-left: 0rem;
+  }
+  .hundred-image {
+    width: 35rem;
+    margin-bottom: 38.5rem;
+  }
+  .zero-image {
+    margin-bottom: 48.5rem;
+  }
+  .first-sec-text {
+    margin-left: 2rem;
+  }
+  .first-sec-button {
+    margin-left: 2rem;
+  }
+}
 
 @media all and (max-width: 1000px){
   .slideInLeft {
@@ -522,6 +541,10 @@ label {
   }
   .panel {
     margin-left: 5rem;
+  }
+  .first-sec-img {
+    width: 100%;
+    margin-left: 50rem;
   }
 }
 @media all and (max-width : 752px) {
