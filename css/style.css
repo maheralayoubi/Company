@@ -517,15 +517,18 @@ label {
 }
 @media all and (max-width: 1550px){
   .first-sec-img {
-    width: 100%;
-    margin-left: 0rem;
+    width: 70rem;
+    margin-left: 10rem;
+  }
+  .arrow-image {
+    margin-bottom: 60rem;
   }
   .hundred-image {
-    width: 34rem;
+    width: 44rem;
     margin-bottom: 38.5rem;
   }
   .zero-image {
-    margin-bottom: 48.5rem;
+    margin-bottom: 54rem;
   }
   .first-sec-text {
     margin-left: 2rem;
