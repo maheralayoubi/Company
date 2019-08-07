@@ -473,36 +473,9 @@ label {
 {
   font-weight: 300;
 }
-.cardContainer
-{
-
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  transition: all .3s ease;
-
-
-  /*depth of the elements */
-  -webkit-perspective: 800px;
-  -moz-perspective: 800px;
-  -o-perspective: 800px;
-  perspective: 800px;
-
-  /*border: 1px solid #ff0000;*/
-  padding-left: 1%;
-}
 .secondRow
 {
   margin-top: -1.4%
-}
-
-
-
-
-.cardTitle {
-  line-height: 1.2em;
-  margin-top: 8%;
-  font-weight: 600;
 }
 .content h3.cardTitle
 {
@@ -514,6 +487,7 @@ label {
   text-align: left;
   font-weight: bold;
 }
+
 @media all and (max-width: 1550px){
   .first-sec-img {
     width: 75rem;
