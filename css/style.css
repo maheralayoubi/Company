@@ -545,6 +545,9 @@ label {
   .first-sec-text-two-text {
     margin-left: 17rem;
   }
+  .panel__wrapper_two {
+    width: 55rem;
+  }
 }
 
 @media all and (max-width: 1200px){
