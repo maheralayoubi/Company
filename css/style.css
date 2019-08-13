@@ -629,10 +629,15 @@ label {
 }
 @media all and (max-width : 910px) {
   .zero-image {
-    margin-bottom: 63rem;
-    height: 13rem;
+    margin-bottom: 60rem;
+    margin-left: 0rem;
+  }
+  .first-sec-img {
+    width: 140%;
   }
 }
-@media all and (max-width : 390px) {
-
+@media all and (max-width : 690px) {
+  .first-sec-img {
+    display: none;
+  }
 }
