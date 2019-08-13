@@ -573,11 +573,23 @@ label {
     display: none;
   }
   .panel {
-    margin-left: 5rem;
+    margin-left: 1rem;
+    width: 100%;
   }
   .first-sec-img {
-    width: 100%;
-    margin-left: 50rem;
+    width: 85rem;
+    margin-left: 25rem;
+  }
+  .hundred-image {
+    width: 45rem;
+    margin-bottom: 42.3rem;
+  }
+  .zero-image {
+    margin-left: -2rem;
+    margin-right: 1rem;
+  }
+  .arrow-image {
+    margin-left: 2rem;
   }
 }
 @media all and (max-width : 752px) {
