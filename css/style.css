@@ -636,7 +636,7 @@ label {
     width: 140%;
   }
 }
-@media all and (max-width : 690px) {
+@media all and (max-width : 710px) {
   .first-sec-img {
     display: none;
   }
