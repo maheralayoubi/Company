@@ -610,6 +610,12 @@ label {
     height: auto;
   }
 }
+@media all and (max-width : 990px){
+  .panel__wrapper_two {
+    width: 75%;
+    margin-left: -9rem;
+  }
+}
 @media all and (max-width : 910px) {
   .slideInLeft {
     display: none;
