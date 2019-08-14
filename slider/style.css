@@ -121,12 +121,23 @@
 @media all and (max-width: 1550px) {
   .slideshow-container {
     max-width: 60rem;
+    margin-left: 3rem;
   }
   .dot-container {
     margin-left: 10rem;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media all and (max-width: 1300px) {
+  .slideshow-container {
+    width: 50rem;
+  }
+}
+@media all and (max-width: 1200px) {
+  .slideshow-container {
+    width: 45rem;
+  }
+}
+@media only screen and (min-width: 1100px) {
   .text {
     /*text-align: left;
     left: 55%*/
@@ -152,7 +163,12 @@
   }
   .next {
     top: 55%;
-    right: -100px;
+    right: -80px;
     font-size: 160px;
+  }
+}
+@media all and (max-width: 1050px) {
+  .slideshow-container {
+    width: 100%;
   }
 }
