@@ -570,24 +570,27 @@ label {
 @media all and (max-width: 1200px){
   .first-sec-img {
     width: 70rem;
-    margin-left: 22rem;
+    margin-left: 25rem;
   }
   .first-sec-text {
-    margin-left: 24rem;
+    margin-left: 26rem;
     margin-top: -55rem;
   }
   .first-sec-button {
-    margin-left: 24rem;
+    margin-left: 26rem;
   }
   .first-sec-text-two  {
-    margin-left: 24rem;
+    margin-left: 26rem;
   }
   .first-sec-text-two-text {
-    margin-left: 24rem;
+    margin-left: 26rem;
   }
   .b-yellow {
-    margin-left: 17rem;
-}
+    margin-left: 18rem;
+  }
+  .third-sec-images {
+    margin-left: 4rem;
+  }
 }
 
 @media all and (max-width: 1020px){
