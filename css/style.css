@@ -292,12 +292,12 @@ ul li p {
 }
 .third-sec-images {
   display: inline-block;
-  width: 85rem;
+  width: 100%;
   margin-left: 5rem;
   margin-top: -1rem;
 }
 .third-sec-img {
-  max-width: 25rem;
+  max-width: 22rem;
   max-height: 20rem;
   margin: 1rem;
   transition: transform .4s;
@@ -537,9 +537,18 @@ label {
   }
   .panel__wrapper_two {
     width: 55rem;
+    margin-top: 3rem;
+  }
+  .panel__wrapper_three {
+    margin-top: 6rem;
+    margin-left: -13rem;
+    width: 80%;
   }
   .b-yellow {
     margin-left: 16rem;
+  }
+  .panel {
+    height: auto;
   }
 }
 
@@ -608,6 +617,11 @@ label {
   }
   .panel {
     height: auto;
+  }
+  .panel__wrapper_three {
+    margin-top: 6rem;
+    width: 80%;
+    margin-left: -13rem;
   }
 }
 @media all and (max-width : 990px){
