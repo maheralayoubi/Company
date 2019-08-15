@@ -506,6 +506,21 @@ label {
   .first-sec-text-two-text {
     margin-left: 10rem;
   }
+  .panel {
+    height: auto;
+  }
+  .panel__wrapper_three {
+    margin-top: 10rem;
+    margin-left: -6rem;
+    width: 100%;
+  }
+}
+@media all and (max-width: 1500px){
+  .panel__wrapper_three {
+    margin-top: 8rem;
+    margin-left: -8rem;
+    width: 80%;
+  }
 }
 @media all and (max-width: 1400px){
   .first-sec-img {
@@ -540,9 +555,9 @@ label {
     margin-top: 3rem;
   }
   .panel__wrapper_three {
-    margin-top: 6rem;
-    margin-left: -13rem;
-    width: 80%;
+    margin-top: 8rem;
+    margin-left: -5rem;
+    width: 100%;
   }
   .b-yellow {
     margin-left: 16rem;
@@ -619,9 +634,9 @@ label {
     height: auto;
   }
   .panel__wrapper_three {
-    margin-top: 6rem;
+    margin-top: 3rem;
     width: 80%;
-    margin-left: -13rem;
+    margin-left: -0rem;
   }
 }
 @media all and (max-width : 990px){
@@ -650,6 +665,14 @@ label {
   .panel__wrapper_two {
     width: 70%;
     margin-left: -15rem;
+  }
+  .panel__wrapper_three {
+    margin-top: 3rem;
+    width: 80%;
+    margin-left: -16rem;
+  }
+  .third-sec-images {
+    margin-left: 7rem;
   }
 }
 @media all and (max-width : 710px) {
@@ -695,11 +718,19 @@ label {
     margin-top: 3rem;
     margin-left: -8.2rem;
   }
+  .third-sec-images {
+    margin-left: 13rem;
+  }
 }
 @media all and (max-width : 400px) {
 .panel__wrapper_two {
   margin-top: 3rem;
   margin-left: -.5rem;
   width: 100%;
+  }
+  .panel__wrapper_three {
+    margin-top: 1rem;
+    width: 100%;
+    margin-right: 1.5rem;
   }
 }
