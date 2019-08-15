@@ -590,7 +590,7 @@ label {
 }
 }
 
-@media all and (max-width: 1050px){
+@media all and (max-width: 1020px){
   .slideInLeft {
     display: none;
   }
