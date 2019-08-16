@@ -565,6 +565,11 @@ label {
   .panel {
     height: auto;
   }
+  .panel__wrapper_four {
+    padding: 7vh 2vw;
+    width: 100%;
+    margin-left: 5rem;
+  }
 }
 
 @media all and (max-width: 1200px){
@@ -641,6 +646,11 @@ label {
     width: 80%;
     margin-left: -0rem;
   }
+  .panel__wrapper_four {
+    padding: 2rem;
+    width: 100%;
+    margin-left: 10rem;
+}
 }
 @media all and (max-width : 990px){
   .panel__wrapper_two {
@@ -721,11 +731,19 @@ label {
     margin-top: 3rem;
     margin-left: -8.2rem;
   }
+  .panel__wrapper_three {
+    margin-top: 3rem;
+    width: 80%;
+    margin-left: -18rem;
+  }
   .third-sec-images {
     margin-left: 13rem;
   }
+  .panel__wrapper_four {
+    margin-left: 4rem;
+  }
 }
-@media all and (max-width : 400px) {
+@media all and (max-width : 415px) {
 .panel__wrapper_two {
   margin-top: 3rem;
   margin-left: -.5rem;
@@ -734,6 +752,17 @@ label {
   .panel__wrapper_three {
     margin-top: 1rem;
     width: 100%;
-    margin-right: 1.5rem;
+    margin-left: -17.5rem;
+  }
+  .form input {
+    padding-right: 155px;
+  }
+  .third-sec-img {
+    max-width: 25rem;
+  }
+}
+@media all and (max-width : 375px) {
+  .third-sec-img {
+    max-width: 22rem;
   }
 }
