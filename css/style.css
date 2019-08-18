@@ -30,6 +30,9 @@ ul {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+.w3-top {
+  display: none;
+}
 .slideInLeft {
   animation-duration: 0.8s;
 }
@@ -602,6 +605,9 @@ label {
   .slideInLeft {
     display: none;
   }
+  .w3-top {
+    display: block;
+  }
   .panel {
     margin-left: -6rem;
     width: 130%;
@@ -737,7 +743,7 @@ label {
     margin-left: -18rem;
   }
   .third-sec-images {
-    margin-left: 13rem;
+    margin-left: 14rem;
   }
   .panel__wrapper_four {
     margin-left: 4rem;
