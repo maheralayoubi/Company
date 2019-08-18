@@ -190,7 +190,7 @@ ul li p {
 }
 .first-sec-img {
   display: inline-block;
-  width: 100rem;
+  width: 105rem;
   margin-left: 25rem;
   margin-top: -1rem;
 }
@@ -205,17 +205,18 @@ ul li p {
 .arrow-image {
   max-width: 4rem;
   max-height: 4rem;
-  margin-bottom: 55rem;
-  margin-left: 3rem;
+  margin-bottom: 51rem;
+  margin-left: 5rem;
   animation-duration: 0.8s;
   animation-delay: 0.8s;
   animation-fill-mode: both;
 }
 .hundred-image {
   width: 60rem;
-  max-height: 35rem;
-  margin-bottom: 31.5rem;
-  margin-left: 3rem;
+  height: 35rem;
+  margin-bottom: 35rem;
+  margin-left: 5rem;
+  margin-right: -5rem;
   animation-duration: 1s;
   animation-delay: 1.1s;
   animation-fill-mode: both;
@@ -296,7 +297,7 @@ ul li p {
 .third-sec-images {
   display: inline-block;
   width: 100%;
-  margin-left: 5rem;
+  margin-left: 8rem;
   margin-top: -1rem;
 }
 .third-sec-img {
@@ -487,7 +488,7 @@ label {
     margin-left: 9rem;
   }
   .arrow-image {
-    margin-bottom: 62rem;
+    margin-bottom: 55rem;
   }
   .hundred-image {
     width: 50rem;
@@ -531,14 +532,14 @@ label {
     margin-left: 15rem;
   }
   .arrow-image {
-    margin-bottom: 64.5rem;
+    margin-bottom: 61rem;
   }
   .hundred-image {
     width: 40rem;
     margin-bottom: 45rem;
   }
   .zero-image {
-    margin-bottom: 58rem;
+    margin-bottom: 62rem;
   }
   .first-sec-text {
     margin-left: 17rem;
@@ -617,14 +618,10 @@ label {
     margin-left: 0rem;
   }
   .hundred-image {
-      width: 35rem;
-      margin-bottom: 50rem;
+      width: 41rem;
   }
   .zero-image {
     margin-bottom: 60rem;
-  }
-  .arrow-image {
-    margin-bottom: 66.7rem;
   }
   .first-sec-text {
     margin-left: 1rem;
@@ -700,6 +697,7 @@ label {
   }
   .first-img-sec-sp {
     display: block;
+    margin-top: 5rem;
   }
   .first-img-sp {
     height: auto;
@@ -717,7 +715,7 @@ label {
     margin-top: 4rem;
   }
   .news-line {
-    width: 190px;
+    width: 170px;
   }
   .panel__wrapper {
     padding: 0 0 0 2.5rem;
