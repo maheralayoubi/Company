@@ -77,14 +77,6 @@ ul li p {
 .nav__link:hover {
   background: #ffff;
 }
-@media (max-width: 640px) {
-  .nav {
-    width: 70px;
-  }
-  .nav__list {
-    height: 90vh;
-  }
-}
 
 .burger {
   height: 15vh;
@@ -171,6 +163,11 @@ ul li p {
   padding-right: 150px;
   -webkit-perspective: 1000px;
           perspective: 1000px;
+}
+
+.b-blue {
+  width: 100%;
+  margin-left: 12rem;
 }
 
 .panel__headline {
@@ -600,6 +597,9 @@ label {
   .third-sec-images {
     margin-left: 4rem;
   }
+  .news-line {
+    width: 350px;
+  }
 }
 
 @media all and (max-width: 1020px){
@@ -653,7 +653,7 @@ label {
     padding: 2rem;
     width: 100%;
     margin-left: 10rem;
-}
+  }
 }
 @media all and (max-width : 990px){
   .panel__wrapper_two {
@@ -745,6 +745,9 @@ label {
   }
   .panel__wrapper_four {
     margin-left: 4rem;
+  }
+  .form input {
+    padding-right: 155px;
   }
 }
 @media all and (max-width : 415px) {
