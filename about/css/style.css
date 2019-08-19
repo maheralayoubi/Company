@@ -104,26 +104,25 @@ body {
 /*section-2*/
 .section-2 {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
+
 .part-1 {
     background: #484848;
     width: 200px;
     height: 200px;
-    display: inline-block;
     position: relative;
-    left: -5px;
-    top: -10px;
-    z-index: 1;
+    left: 100px;
+    top: 30px;
 }
+
 .part-2 {
     width: 630px;
     height: 330px;
-    display: inline-block;
     border: black solid 2px;
-    position: relative;
-    left: -100px;
-
 }
+
 .part-2 h1 {
     color: black;
     margin: 40px 120px;
@@ -143,14 +142,15 @@ body {
 
 /*section-3*/
 .section-3 {
-  max-width: 63rem;
-  min-height: 30rem;
-  margin: auto;
-  margin-top: 5rem;
+    max-width: 63rem;
+    min-height: 30rem;
+    margin: auto;
+    margin-top: 5rem;
 }
+
 .menu {
-  margin: auto;
-  margin-left: 7rem;
+    margin: auto;
+    margin-left: 7rem;
 }
 
 .menu .line1 {
@@ -174,6 +174,7 @@ body {
     color: white;
     padding: 10px;
 }
+
 .top {
     background: black;
     padding: 10px;
@@ -184,4 +185,47 @@ body {
     text-align: center;
     margin-top: -100px;
     border-radius: 10px 0px 10px 0px;
+}
+
+@media (max-width:786px) {
+    .navbar {
+        display: none;
+    }
+
+    .section-1 .title {
+        margin: 5px;
+    }
+
+    .section-1 .text {
+        margin: 5px;
+    }
+
+    .part-1 {
+        display: none;
+    }
+
+    .part-2 h1 {
+        margin: 10px 30px;
+    }
+
+    .part-2 .text {
+        margin: 30px 30px;
+    }
+
+    .section-3 {
+        margin-top: 1rem;
+    }
+
+    .menu {
+        margin: 10px 30px;
+    }
+
+    .menu span {
+        padding: 0;
+    }
+
+    .menu .line1 {
+        width: 100%;
+    }
+
 }
