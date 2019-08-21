@@ -576,29 +576,35 @@ label {
 @media all and (max-width: 1200px){
   .first-sec-img {
     width: 70rem;
-    margin-left: 25rem;
+    margin-left: 27rem;
   }
   .first-sec-text {
-    margin-left: 26rem;
+    margin-left: 28rem;
     margin-top: -55rem;
   }
   .first-sec-button {
-    margin-left: 26rem;
+    margin-left: 28rem;
   }
   .first-sec-text-two  {
-    margin-left: 26rem;
+    margin-left: 28rem;
   }
   .first-sec-text-two-text {
-    margin-left: 26rem;
+    margin-left: 28rem;
   }
   .b-yellow {
-    margin-left: 18rem;
+    margin-left: 22rem;
   }
   .third-sec-images {
-    margin-left: 4rem;
+    margin-left: 9rem;
+  }
+  .panel__wrapper_four {
+    margin-left: 6rem;
   }
   .news-line {
     width: 350px;
+  }
+  .nav {
+    min-height: 110rem;
   }
 }
 
