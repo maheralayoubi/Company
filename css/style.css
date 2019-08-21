@@ -654,6 +654,11 @@ label {
     width: 100%;
     margin-left: 10rem;
   }
+  .sp-logo-img {
+    height: 25px;
+    width: 100px;
+    margin-left: -10px;
+  }
 }
 @media all and (max-width : 990px){
   .panel__wrapper_two {
@@ -766,6 +771,11 @@ label {
   }
   .third-sec-img {
     max-width: 25rem;
+  }
+  .sp-logo-img {
+    height: 25px;
+    width: 100px;
+    margin-left: -10px;
   }
 }
 @media all and (max-width : 375px) {
