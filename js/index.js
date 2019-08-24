@@ -11,6 +11,7 @@ var openMenu = function() {
 $('.card').click(function(){
   $(this).toggleClass('flipped');
 });
+
 // reveal content of first panel by default
 panel.eq(0).find('.panel__content').addClass('panel__content--active');
 
