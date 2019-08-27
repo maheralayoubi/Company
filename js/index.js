@@ -94,6 +94,7 @@ function myFunction() {
   }
 }
 
+// Delay for the video on page load
 window.onload = function() {
   window.setTimeout(fadeout, 5000); //8 seconds
 }

@@ -626,6 +626,9 @@ label {
   .slideInLeft {
     display: none;
   }
+  .loading-video {
+    display: none;
+  }
   .w3-top {
     display: block;
   }
@@ -639,21 +642,30 @@ label {
   }
   .hundred-image {
       width: 41rem;
+      animation-delay: 1.6s;
   }
   .zero-image {
     margin-bottom: 60rem;
+    animation-delay: 1s;
+  }
+  .arrow-image {
+    animation-delay: 1.2s;
   }
   .first-sec-text {
     margin-left: 1rem;
+    animation-delay: 1.3s;
   }
   .first-sec-button {
     margin-left: 1rem;
+    animation-delay: 1.3s;
   }
   .first-sec-text-two  {
     margin-left: 1rem;
+    animation-delay: 1.3s;
   }
   .first-sec-text-two-text {
     margin-left: 1rem;
+    animation-delay: 1.3s;
   }
   .panel__wrapper_two {
     width: 100%;
