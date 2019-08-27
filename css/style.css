@@ -18,6 +18,16 @@ ul {
   margin: 0;
 }
 
+.loading-video {
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+}
+.vid {
+  height: 100vh;
+  width: 100%;
+}
+
 #top-menu li.active a {
     border-top: 3px solid #333;
     color: #333;
@@ -37,7 +47,8 @@ ul {
   display: none;
 }
 .slideInLeft {
-  animation-duration: 0.8s;
+  animation-duration: 1s;
+  animation-delay: 5s;
 }
 .nav__list {
   display: flex;
@@ -199,7 +210,7 @@ ul li p {
   max-height: 25rem;
   margin-bottom: 50rem;
   animation-duration: 0.8s;
-  animation-delay: 0.5s;
+  animation-delay: 5s;
   animation-fill-mode: both;
 }
 .arrow-image {
@@ -208,7 +219,7 @@ ul li p {
   margin-bottom: 51rem;
   margin-left: 5rem;
   animation-duration: 0.8s;
-  animation-delay: 0.8s;
+  animation-delay: 5.3s;
   animation-fill-mode: both;
 }
 .hundred-image {
@@ -218,7 +229,7 @@ ul li p {
   margin-left: 5rem;
   margin-right: -5rem;
   animation-duration: 1s;
-  animation-delay: 1.1s;
+  animation-delay: 6.1s;
   animation-fill-mode: both;
 }
 
@@ -236,7 +247,7 @@ ul li p {
   max-width: 800px;
   font-size: 16px;
   animation-duration: 1s;
-  animation-delay: 1.5s;
+  animation-delay: 6.5s;
   animation-fill-mode: both;
 }
 .first-sec-text-two {
@@ -247,7 +258,7 @@ ul li p {
   font-size: 14px;
   font-weight: bold;
   animation-duration: 1s;
-  animation-delay: 1.5s;
+  animation-delay: 6.5s;
   animation-fill-mode: both;
 }
 .first-sec-text-two-text {
@@ -257,7 +268,7 @@ ul li p {
   max-width: 800px;
   font-size: 14px;
   animation-duration: 1s;
-  animation-delay: 1.5s;
+  animation-delay: 6.5s;
   animation-fill-mode: both;
 }
 .news-line {
@@ -280,7 +291,7 @@ ul li p {
   padding: 15px 50px;
   outline: none;
   animation-duration: 0.7s;
-  animation-delay: 1.5s;
+  animation-delay: 6.5s;
   animation-fill-mode: both;
 }
 .about-link {

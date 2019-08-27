@@ -93,3 +93,12 @@ function myFunction() {
     x.className = x.className.replace(" w3-show", "");
   }
 }
+
+window.onload = function() {
+  window.setTimeout(fadeout, 5000); //8 seconds
+}
+
+function fadeout() {
+  document.getElementById('fadeout').style.display = "none";
+  //document.getElementById('lef-nav').style.display = "block";
+}
