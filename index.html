@@ -106,29 +106,31 @@
                 <div class="mySlides fade">
                   <img class="slider-img" src="pc_service_info_1.png" style="width:100%">
                   <div class="text">
-                    <h2>HTML</h2>
-                    <p>Hypertext Markup Language is the standard markup <br>
-                       language for documents designed to be displayed <br>
-                       in a web browser. It can be assisted by technologies <br>
-                       such as Cascading Style Sheets and scripting <br>
-                       languages such as JavaScript.</p>
-                          <div class="btn">
-                            <a href="#">Learn More</a>
-                          </div>
+                    <h2>WEB</h2>
+                    <div class="slider-text">
+                      <p>流行りのデザインは数多くありますが <br>
+                        我々はお客様の要望に合ったサイトを <br>
+                        企画の段階からご提案させていただき <br>
+                        デザイン、実装、運用までいたします。 </p>
+                            <div class="btn">
+                              <a href="#">Learn More</a>
+                        </div>
+                    </div>
                   </div>
                 </div>
 
                 <div class="mySlides fade">
                   <img class="slider-img" src="pc_service_info_2.png" style="width:100%">
                   <div class="text">
-                    <h2>CSS</h2>
-                    <p>Cascading Style Sheets is a style sheet language <br>
-                       used for describing the presentation of a document <br>
-                       written in a markup language like HTML. CSS is a <br>
-                       cornerstone technology of the World Wide Web,<br>
-                       alongside HTML and JavaScript.</p>
+                    <h2>PRINT</h2>
+                    <div class="slider-text">
+                    <p>チラシ、パンフレット、冊子などの <br>
+                      印刷物も対応可能です。 <br>
+                      お客様の用途にあった素材や <br>
+                      特殊印刷のご提案までいたします。 </p>
                     <div class="btn">
                       <a href="#">Learn More</a>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -136,19 +138,31 @@
                 <div class="mySlides fade">
                   <img class="slider-img" src="pc_service_info_3.png" style="width:100%">
                   <div class="text">
-                    <h2>JScript</h2>
-                    <p>JavaScript, often abbreviated as JS, is a high-level,  <br>
-                       interpreted programming language that conforms to the <br>
-                       ECMAScript specification. JavaScript has curly-bracket <br>
-                      syntax, dynamic typing, prototype-based object-orientation, <br>
-                       and first-class functions.</p>
+                      <h2>OTHER</h2>
+                      <div class="slider-text">
+                      <p>イラスト制作、動画制作、写真撮影、<br>
+                        動画撮影、モデルのアサイン<br>
+                        広告のバナーから動画まで<br>
+                        クリエイティブに関してご相談ください。 </p>
                        <div class="btn">
                          <a href="#">Learn More</a>
                        </div>
+                     </div>
                   </div>
                 </div>
 
-                <a class="next" onclick="plusSlides(1)">&#10093;</a>
+                <!--<a class="next" onclick="plusSlides(1)">&#10093;</a>-->
+                <a class="next" onclick="plusSlides(1)"><svg xmlns="http://www.w3.org/2000/svg" class="next-icon" width="55.56" height="106.56" viewBox="0 0 55.56 106.56">
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: #e0e0e0;
+                        fill-rule: evenodd;
+                      }
+                    </style>
+                  </defs>
+                  <path id="big_arrow" class="cls-1" d="M1090.42,1068.84l1.42-1.42,53.74,53.74-1.42,1.42Zm0.98,105.17-1.41-1.41,53.61-53.61,1.41,1.41Z" transform="translate(-1090 -1067.44)"/>
+                </svg></a>
               </div>
 
               <div class="dot-container">
@@ -191,7 +205,7 @@
                   <input type="text" id="mail" name="mail" placeholder="メールアドレス">
                   <br>
                   <label for="message">お問い合わせ内容※必須</label>
-                  <input type="text" id="lname" name="lastname" placeholder="お問い合わせ内容">
+                  <input class="message-area" type="text" id="lname" name="lastname" placeholder="お問い合わせ内容">
                   <br>
                   <button>送信</button>
             </div>

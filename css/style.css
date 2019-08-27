@@ -1,9 +1,12 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Montserrat';
+  font-family: 'Noto Sans Japanese',   sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-color: #111111;
@@ -59,8 +62,8 @@ ul li p {
   padding: 30px;
   margin-right: 20px;
   color: #fff;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 400;
 }
 .nav__link {
   display: flex;
@@ -231,7 +234,7 @@ ul li p {
   margin-top: -45rem;
   color: #fff;
   max-width: 800px;
-  font-size: 21px;
+  font-size: 16px;
   animation-duration: 1s;
   animation-delay: 1.5s;
   animation-fill-mode: both;
@@ -241,7 +244,7 @@ ul li p {
   margin-top: 6rem;
   color: #fff;
   max-width: 800px;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: bold;
   animation-duration: 1s;
   animation-delay: 1.5s;
@@ -252,14 +255,14 @@ ul li p {
   margin-top: 1rem;
   color: #fff;
   max-width: 800px;
-  font-size: 18px;
+  font-size: 14px;
   animation-duration: 1s;
   animation-delay: 1.5s;
   animation-fill-mode: both;
 }
 .news-line {
   display: inline-block;
-  width: 500px;
+  width: 350px;
   border-bottom: 1.5px solid #fff;
   line-height: 0;
   margin-bottom: 6px;
@@ -272,7 +275,7 @@ ul li p {
   border: 1px solid white;
   text-align: center;
   line-height: 1;
-  font-size: 20px;
+  font-size: 14px;
   background-color: transparent;
   padding: 15px 50px;
   outline: none;
@@ -417,8 +420,8 @@ label {
   margin-right: 20px;
 }
 .language p{
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 400;
   padding: 0 10px;
   text-align: center;
   float: right;
@@ -708,7 +711,7 @@ label {
   }
   .first-img-sec-sp {
     display: block;
-    margin-top: 5rem;
+    margin-top: 7rem;
   }
   .first-img-sp {
     height: auto;
@@ -719,24 +722,24 @@ label {
   }
   .first-sec-text {
     margin-top: 2rem;
-    font-size: 22px;
+    font-size: 20px;
   }
   .first-sec-text-two {
-    font-size: 22px;
-    margin-top: 4rem;
+    font-size: 16px;
+    margin-top: 3rem;
   }
   .news-line {
-    width: 170px;
+    width: 240px;
   }
   .panel__wrapper {
     padding: 0 0 0 2.5rem;
     width: 100%;
   }
   .first-sec-button {
-    font-size: 16px;
+    font-size: 12px;
   }
   .first-sec-text-two-text {
-    font-size: 16px;
+    font-size: 12px;
   }
   .panel {
     height: auto;
@@ -763,7 +766,7 @@ label {
 }
 @media all and (max-width : 415px) {
 .panel__wrapper_two {
-  margin-top: 3rem;
+  margin-top: 4rem;
   margin-left: -.5rem;
   width: 100%;
   }
