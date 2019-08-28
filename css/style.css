@@ -24,8 +24,14 @@ ul {
   position: absolute;
 }
 .vid {
-  height: 100vh;
-  width: 100%;
+  position: fixed;
+  left: 0rem;
+  right: 0rem;
+  bottom: 0;
+  max-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
 }
 
 #top-menu li.active a {
