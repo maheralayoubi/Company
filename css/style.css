@@ -74,7 +74,7 @@ ul {
   height: 60px;
   margin-top: 30px;
 }
-ul li p {
+.nav-element {
   float: right;
   padding: 30px;
   margin-right: 20px;
