@@ -736,9 +736,10 @@ label {
     margin-left: -15rem;
     padding-right: 0;
     padding-left: 0;
+    margin-top: -5rem;
   }
   .panel__wrapper_three {
-    margin-top: 3rem;
+    margin-top: -2rem;
     width: 80%;
     margin-left: -16rem;
   }
@@ -824,17 +825,20 @@ label {
 }
 @media all and (max-width : 415px) {
 .panel__wrapper_two {
-  margin-top: 4rem;
+  margin-top: 0.5rem;
   margin-left: -.5rem;
   width: 100%;
   }
   .panel__wrapper_three {
-    margin-top: 1rem;
+    margin-top: -1.6rem;
     width: 100%;
     margin-left: -17.5rem;
   }
   .form input {
     padding-right: 135px;
+  }
+  .form {
+    padding: 0;
   }
   .third-sec-img {
     max-width: 25rem;
@@ -845,7 +849,7 @@ label {
     margin-left: -10px;
   }
   .works-title-sp {
-    margin-left: -2rem;
+    margin-left: -1.6rem;
   }
   .third-sec-images {
     margin-left: 14rem;
