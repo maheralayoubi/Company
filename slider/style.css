@@ -195,6 +195,8 @@
 @media all and (max-width: 800px) {
   .slideshow-container {
     width: 100%;
+    margin-left: 2.2rem;
+    padding: 0 2rem;
   }
   .text h2 {
     font-size: 90px;
@@ -203,8 +205,11 @@
   }
   .next-icon {
     margin-top: 40px;
+    margin-right: 1.5rem;
     height: 80px;
     width: 40px;
-
+  }
+  .dot-container {
+    margin-left: 4.1rem;
   }
 }
