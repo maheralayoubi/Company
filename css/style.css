@@ -321,6 +321,9 @@ ul {
   margin-left: 8rem;
   margin-top: -1rem;
 }
+.works-title-sp {
+  display: none;
+}
 .third-sec-img {
   max-width: 22rem;
   max-height: 20rem;
