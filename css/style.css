@@ -218,7 +218,7 @@ ul {
 .zero-image {
   max-width: 11rem;
   max-height: 25rem;
-  margin-bottom: 50rem;
+  margin-bottom: 52.5rem;
   animation-duration: 0.8s;
   animation-delay: 5s;
   animation-fill-mode: both;
@@ -235,7 +235,7 @@ ul {
 .hundred-image {
   width: 60rem;
   height: 35rem;
-  margin-bottom: 35rem;
+  margin-bottom: 33rem;
   margin-left: 5rem;
   margin-right: -5rem;
   animation-duration: 1s;
@@ -511,14 +511,15 @@ label {
 
 @media all and (max-width: 1550px){
   .first-sec-img {
-    width: 75rem;
+    width: 80rem;
     margin-left: 9rem;
   }
   .arrow-image {
     margin-bottom: 55rem;
   }
   .hundred-image {
-    width: 50rem;
+    width: 55rem;
+    height: 32rem;
     margin-bottom: 38.5rem;
   }
   .zero-image {
@@ -555,14 +556,15 @@ label {
 }
 @media all and (max-width: 1400px){
   .first-sec-img {
-    width: 70rem;
+    width: 80rem;
     margin-left: 15rem;
   }
   .arrow-image {
     margin-bottom: 61rem;
   }
   .hundred-image {
-    width: 40rem;
+    width: 50rem;
+    height: 30rem;
     margin-bottom: 45rem;
   }
   .zero-image {
@@ -603,9 +605,9 @@ label {
   }
 }
 
-@media all and (max-width: 1200px){
+@media all and (max-width: 1280px){
   .first-sec-img {
-    width: 70rem;
+    width: 90rem;
     margin-left: 27rem;
   }
   .first-sec-text {
@@ -638,7 +640,7 @@ label {
   }
 }
 
-@media all and (max-width: 1020px){
+@media all and (max-width: 1150px){
   .slideInLeft {
     display: none;
   }
@@ -655,9 +657,10 @@ label {
   .first-sec-img {
     width: 110%;
     margin-left: 0rem;
+    margin-top: 2rem;
   }
   .hundred-image {
-      width: 41rem;
+      width: 50rem;
       animation-delay: 1.6s;
   }
   .zero-image {
