@@ -22,6 +22,7 @@ ul {
   width: 100%;
   z-index: 10;
   position: absolute;
+  display: none;
 }
 .vid {
   position: fixed;
@@ -508,6 +509,11 @@ label {
 .first-img-sec-sp {
   display: none;
 }
+.contact-image {
+  position: absolute;
+  left: 30rem;
+  top: 18rem;
+}
 
 @media all and (max-width: 1550px){
   .first-sec-img {
@@ -710,6 +716,11 @@ label {
     width: 100px;
     margin-left: -10px;
   }
+  .contact-image {
+    position: absolute;
+    left: 20rem;
+    top: 18rem;
+  }
 }
 @media all and (max-width : 990px){
   .panel__wrapper_two {
@@ -759,6 +770,9 @@ label {
 }
 @media all and (max-width : 710px) {
   .first-sec-img {
+    display: none;
+  }
+  .contact-image {
     display: none;
   }
   .first-img-sec-sp {
