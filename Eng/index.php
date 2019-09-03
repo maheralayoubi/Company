@@ -1,3 +1,57 @@
+<?php
+$to = "n.masaoka@kuroworks.com, m.alayoubi@kuroworks.com, maher91syr@gmail.com";
+$name = $mail = $mailCheck = $message = "";
+$nameErr = $mailErr = $mailCheckErr = $messageErr = "";
+$page_flag = 0;
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name = test_input($_POST["name"]);
+  $mail = test_input($_POST["mail"]);
+	$mailCheck = test_input($_POST["mailCheck"]);
+  $message = test_input($_POST["message"]);
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (empty($_POST["name"])) {
+    $nameErr = "入力に不備があります";
+  } else {
+    $name = test_input($_POST["name"]);
+  }
+
+  if (empty($_POST["mail"]) || !filter_var($mail, FILTER_VALIDATE_EMAIL)) {
+      $mailErr = "入力に不備があります";
+    } else if ($mail != $mailCheck){
+  		$mailCheckErr = "入力に不備があります";
+  	} else {
+      $mail = test_input($_POST["mail"]);
+    }
+
+  if (empty($_POST["message"])) {
+    $messageErr = "入力に不備があります";
+  } else {
+    $message = test_input($_POST["message"]);
+  }
+}
+
+if ((empty($name) || empty($mail) || empty($message) || $mail != $mailCheck) || !filter_var($mail, FILTER_VALIDATE_EMAIL)) {
+$formStatus = "Please enter the following information.";
+} else {
+$page_flag = 1;
+$formStatus = "Thank you for your message. You will receive a response within 3 business days.";
+}
+
+if($page_flag == 1) {
+    mail($to, "New Inquiry from ${name}", $message, "From: ${mail}");
+    $name = $mail = $mailCheck = $message = "";
+}
+ ?>
 <!DOCTYPE html>
 <html lang="en" >
    <head>
@@ -184,41 +238,67 @@
             <div class="panel__content_three">
               <div class="third-sec-images">
                 <p class="first-sec-text-two works-title-sp">NEWS&nbsp;&nbsp;<span class="news-line"></span>&nbsp;&nbsp; SEE ALL&nbsp; ></p>
-                <img class="third-sec-img" src="../left-img.png" alt="">
-                <img class="third-sec-img" src="../mid-img.png" alt="">
-                <img class="third-sec-img" src="../right-img.png" alt="">
-                <img class="third-sec-img" src="../mid-img.png" alt="">
-                <img class="third-sec-img" src="../right-img.png" alt="">
-                <img class="third-sec-img" src="../left-img.png" alt="">
-                <img class="third-sec-img" src="../right-img.png" alt="">
-                <img class="third-sec-img" src="../left-img.png" alt="">
-                <img class="third-sec-img" src="../mid-img.png" alt="">
+                <img class="third-sec-img" src="../works-1.png" alt="">
+                <img class="third-sec-img" src="../works-2.png" alt="">
+                <img class="third-sec-img" src="../works-3.png" alt="">
+                <img class="third-sec-img" src="../works-4.png" alt="">
+
               </div>
             </div>
          </article>
       </section>
       <section class="panel b-green" id="4">
-         <article class="panel__wrapper_four">
-            <div class="panel__content_four">
-               <h1 class="panel__headline_four">CONTACT</h1>
-               <img class="contact-image" src="../pc_contact_logo.png" alt="">
-               <form class="form">
-                  <label for="fname">Name *required	</label>
-                  <input type="text" id="fname" name="firstname" placeholder="Name">
-                  <br>
-                  <label for="fname">Email address *required</label>
-                  <input type="text" id="mail" name="mail" placeholder="Email">
-                  <br>
-                  <label for="fname">Email address (confirmation) *required</label>
-                  <input type="text" id="mail" name="mail" placeholder="Email">
-                  <br>
-                  <label for="message">Inquiry details *required</label>
-                  <input class="message-area" type="text" id="lname" name="lastname" placeholder="Inquiry details">
-                  <br>
-                  <button>Send</button>
+        <article class="panel__wrapper_four">
+           <div class="panel__content_four">
+              <h1 class="panel__headline_four">CONTACT</h1>
+              <img class="contact-image" src="pc_contact_logo.png" alt="">
+              <div id="contactForm">
+             <p class="form-top-message"><?php echo $formStatus ?></p>
+              <form class="form" method="post" action="#contactForm">
+                <div class="form_input">
+                  <label for="name">Name
+                    <span class="error"><?php if (!empty($nameErr)) {echo $nameErr;} ?>
+                    </span>
+                  </label>
+                  <input type="text" id="name" name="name" placeholder="Name" maxlength="30" value="<?php if (!empty($name)) {echo $name;} ?>">
+                </div>
+
+                <br>
+
+                <div class="form_input">
+                  <label for="mail">Email address * required
+                    <span class="error"><?php if (!empty($mailErr)) {echo $mailErr;} ?>
+                    </span>
+                  </label>
+                  <input type="text" id="mail" name="mail" placeholder="Email address * required" maxlength="50" value="<?php if (!empty($mail)) {echo $mail;} ?>">
+                </div>
+
+                <br>
+
+                <div class="form_input">
+                  <label for="mailCheck">Email address (confirmation) * required
+                    <span class="error"><?php if (!empty($mailCheckErr)) {echo $mailCheckErr;} ?>
+                    </span>
+                  </label>
+                  <input type="text" id="mailCheck" name="mailCheck" placeholder="E-mail address (confirmation) * required" maxlength="50" value="<?php if (!empty($mailCheck)) {echo $mailCheck;} ?>">
+                </div>
+
+                <br>
+
+                <div class="form_input">
+                  <label for="message">Inquiry details *required
+                    <span class="error"><?php if (!empty($messageErr)) {echo $messageErr;} ?>
+                    </span>
+                  </label>
+                  <textarea style="height:100px" type="text" id="message" name="message" placeholder="Inquiry details *required" maxlength="500"  value="<?php if (!empty($message)) {echo $message;} ?>"></textarea>
+                </div>
+                <br>
+
+                <input type="submit" name="submit" value="Send">
+              </form>
             </div>
+           </div>
          </article>
-         </form>
       </section>
       <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
       <script  src="../js/index.js"></script>

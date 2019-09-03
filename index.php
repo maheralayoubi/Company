@@ -102,7 +102,7 @@ if($page_flag == 1) {
             </li>
          </ul>
          <div class="language">
-            <p>JP/<a href="eng/index.html">EN</a>/AR</p>
+            <p>JP/<a href="eng/index.php">EN</a>/AR</p>
          </div>
          <br>
          <div class="footer">
