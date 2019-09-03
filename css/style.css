@@ -524,7 +524,10 @@ label {
 .contact-image {
   position: absolute;
   left: 30rem;
-  top: 22rem;
+  top: 18rem;
+}
+.english-img {
+  top: 19rem;
 }
 
 @media all and (max-width: 1550px){

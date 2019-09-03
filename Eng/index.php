@@ -102,7 +102,7 @@ if($page_flag == 1) {
             </li>
          </ul>
          <div class="language">
-            <p><a href="../index.html">JP</a>/<a href="index.html">EN</a>/AR</p>
+            <p><a href="../index.php">JP</a>/<a href="index.html">EN</a>/AR</p>
          </div>
          <br>
          <div class="footer">
@@ -251,7 +251,7 @@ if($page_flag == 1) {
         <article class="panel__wrapper_four">
            <div class="panel__content_four">
               <h1 class="panel__headline_four">CONTACT</h1>
-              <img class="contact-image" src="pc_contact_logo.png" alt="">
+              <img class="contact-image english-img" src="../pc_contact_logo.png" alt="">
               <div id="contactForm">
              <p class="form-top-message"><?php echo $formStatus ?></p>
               <form class="form" method="post" action="#contactForm">
