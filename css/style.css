@@ -431,9 +431,19 @@ ul {
 label {
   color: #fff;
 }
+.form textarea{
+  padding: 10px 10px;
+  color: #ffff;
+  width: 30.5rem;
+  margin: 15px 0;
+  border: none;
+  border: 1px solid #FFF;
+  background: transparent;
+}
 .form input{
   padding: 10px 10px;
-  padding-right: 250px;
+  color: #ffff;
+  width: 30.5rem;
   margin: 15px 0;
   border: none;
   border: 1px solid #FFF;
@@ -830,13 +840,22 @@ label {
     margin-left: 11rem;
   }
   .panel__wrapper_four {
-    margin-left: 4rem;
+    margin-left: 7rem;
+  }
+  .form textarea {
+    width: 24.2rem;
   }
   .form input {
     padding-right: 155px;
+    width: 24.2rem;
   }
   .news-line-slider {
     width: 350px;
+  }
+}
+@media all and (max-width : 550px) {
+  .panel__wrapper_four {
+    margin-left: 4.3rem;
   }
 }
 @media all and (max-width : 415px) {
@@ -852,6 +871,10 @@ label {
   }
   .form input {
     padding-right: 135px;
+    width: 22rem;
+  }
+  .form textarea {
+    width: 22rem;
   }
   .form {
     padding: 0;
