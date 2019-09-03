@@ -188,6 +188,9 @@ ul {
   -webkit-perspective: 1000px;
           perspective: 1000px;
 }
+.form-top-message {
+  color: #ffff;
+}
 
 .b-blue {
   width: 100%;
@@ -386,14 +389,14 @@ ul {
   color: #fff;
   font-weight: 500;
   font-size: 60px;
-  margin: 0px 0 20px 0;
+  margin: 0;
   line-height: 1.8;
 }
 .panel__content_four p{
-  color: #000;
+  color: #ffff;
   font-size: 20px;
   margin: 0px 0 20px 0;
-  line-height: 1.8;
+  line-height: 1.5;
 }
 .panel__wrapper_four {
   padding: 7vh 2vw;
@@ -435,7 +438,7 @@ label {
   padding: 10px 10px;
   color: #ffff;
   width: 30.5rem;
-  margin: 15px 0;
+  margin: 5px 0;
   border: none;
   border: 1px solid #FFF;
   background: transparent;
@@ -444,7 +447,7 @@ label {
   padding: 10px 10px;
   color: #ffff;
   width: 30.5rem;
-  margin: 15px 0;
+  margin: 5px 0;
   border: none;
   border: 1px solid #FFF;
   background: transparent;
@@ -521,7 +524,7 @@ label {
 .contact-image {
   position: absolute;
   left: 30rem;
-  top: 18rem;
+  top: 22rem;
 }
 
 @media all and (max-width: 1550px){
@@ -851,6 +854,13 @@ label {
   }
   .news-line-slider {
     width: 350px;
+  }
+  .panel__content_four p{
+    color: #ffff;
+    font-size: 18px;
+    margin: 0px 40px 20px 0;
+    line-height: 1.5;
+    width: 23rem;
   }
 }
 @media all and (max-width : 550px) {

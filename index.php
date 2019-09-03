@@ -1,3 +1,57 @@
+<?php
+$to = "n.masaoka@kuroworks.com, m.alayoubi@kuroworks.com, maher91syr@gmail.com";
+$name = $mail = $mailCheck = $message = "";
+$nameErr = $mailErr = $mailCheckErr = $messageErr = "";
+$page_flag = 0;
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name = test_input($_POST["name"]);
+  $mail = test_input($_POST["mail"]);
+	$mailCheck = test_input($_POST["mailCheck"]);
+  $message = test_input($_POST["message"]);
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (empty($_POST["name"])) {
+    $nameErr = "入力に不備があります";
+  } else {
+    $name = test_input($_POST["name"]);
+  }
+
+  if (empty($_POST["mail"]) || !filter_var($mail, FILTER_VALIDATE_EMAIL)) {
+      $mailErr = "入力に不備があります";
+    } else if ($mail != $mailCheck){
+  		$mailCheckErr = "入力に不備があります";
+  	} else {
+      $mail = test_input($_POST["mail"]);
+    }
+
+  if (empty($_POST["message"])) {
+    $messageErr = "入力に不備があります";
+  } else {
+    $message = test_input($_POST["message"]);
+  }
+}
+
+if ((empty($name) || empty($mail) || empty($message) || $mail != $mailCheck) || !filter_var($mail, FILTER_VALIDATE_EMAIL)) {
+$formStatus = "お問い合わせ内容を入力して下さい。";
+} else {
+$page_flag = 1;
+$formStatus = "お問合せ有難うございます。３営業日以内にご返信いたします。";
+}
+
+if($page_flag == 1) {
+    mail($to, "New Inquiry from ${name}", $message, "From: ${mail}");
+    $name = $mail = $mailCheck = $message = "";
+}
+ ?>
 <!DOCTYPE html>
 <html lang="en" >
    <head>
@@ -196,23 +250,54 @@
             <div class="panel__content_four">
                <h1 class="panel__headline_four">CONTACT</h1>
                <img class="contact-image" src="pc_contact_logo.png" alt="">
-               <form class="form">
-                  <label for="fname">お名前※必須	</label>
-                  <input type="text" id="fname" name="firstname" placeholder="お名前">
-                  <br>
-                  <label for="fname">メールアドレス ※必須</label>
-                  <input type="text" id="mail" name="mail" placeholder="メールアドレス">
-                  <br>
-                  <label for="fname">メールアドレス(確認) ※必須</label>
-                  <input type="text" id="mail" name="mail" placeholder="メールアドレス">
-                  <br>
-                  <label for="message">お問い合わせ内容※必須</label>
-                  <textarea style="height:100px" type="text" id="lname" name="lastname" placeholder="お問い合わせ内容"></textarea>
-                  <br>
-                  <button>送信</button>
+               <div id="contactForm">
+              <p class="form-top-message"><?php echo $formStatus ?></p>
+               <form class="form" method="post" action="#contactForm">
+                 <div class="form_input">
+                   <label for="name">お名前 ※必須
+                     <span class="error"><?php if (!empty($nameErr)) {echo $nameErr;} ?>
+                     </span>
+                   </label>
+                   <input type="text" id="name" name="name" placeholder="お名前" maxlength="30" value="<?php if (!empty($name)) {echo $name;} ?>">
+                 </div>
+
+                 <br>
+
+                 <div class="form_input">
+                   <label for="mail">メールアドレス ※必須
+                     <span class="error"><?php if (!empty($mailErr)) {echo $mailErr;} ?>
+                     </span>
+                   </label>
+                   <input type="text" id="mail" name="mail" placeholder="メールアドレス" maxlength="50" value="<?php if (!empty($mail)) {echo $mail;} ?>">
+                 </div>
+
+                 <br>
+
+                 <div class="form_input">
+                   <label for="mailCheck">メールアドレス(確認) ※必須
+                     <span class="error"><?php if (!empty($mailCheckErr)) {echo $mailCheckErr;} ?>
+                     </span>
+                   </label>
+                   <input type="text" id="mailCheck" name="mailCheck" placeholder="メールアドレス" maxlength="50" value="<?php if (!empty($mailCheck)) {echo $mailCheck;} ?>">
+                 </div>
+
+                 <br>
+
+                 <div class="form_input">
+                   <label for="message">お問い合わせ内容 ※必須
+                     <span class="error"><?php if (!empty($messageErr)) {echo $messageErr;} ?>
+                     </span>
+                   </label>
+                   <textarea style="height:100px" type="text" id="message" name="message" placeholder="お問い合わせ内容" maxlength="500"  value="<?php if (!empty($message)) {echo $message;} ?>"></textarea>
+                 </div>
+                 <br>
+
+                 <input type="submit" name="submit" value="送信">
+               </form>
+             </div>
             </div>
-         </article>
-         </form>
+          </article>
+
       </section>
       <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
       <script  src="js/index.js"></script>
