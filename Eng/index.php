@@ -20,21 +20,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["name"])) {
-    $nameErr = "入力に不備があります";
+    $nameErr = "Incomplete input";
   } else {
     $name = test_input($_POST["name"]);
   }
 
   if (empty($_POST["mail"]) || !filter_var($mail, FILTER_VALIDATE_EMAIL)) {
-      $mailErr = "入力に不備があります";
+      $mailErr = "Incomplete input";
     } else if ($mail != $mailCheck){
-  		$mailCheckErr = "入力に不備があります";
+  		$mailCheckErr = "Incomplete input";
   	} else {
       $mail = test_input($_POST["mail"]);
     }
 
   if (empty($_POST["message"])) {
-    $messageErr = "入力に不備があります";
+    $messageErr = "Incomplete input";
   } else {
     $message = test_input($_POST["message"]);
   }

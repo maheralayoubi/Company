@@ -103,6 +103,10 @@ ul {
   background: #ffff;
 }
 
+.error {
+  color: red;
+}
+
 .burger {
   height: 15vh;
   position: relative;
