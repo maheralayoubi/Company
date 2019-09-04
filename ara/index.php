@@ -41,10 +41,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 if ((empty($name) || empty($mail) || empty($message) || $mail != $mailCheck) || !filter_var($mail, FILTER_VALIDATE_EMAIL)) {
-$formStatus = "お問い合わせ内容を入力して下さい。";
+$formStatus = "الرجاء إدخال المعلومات التالية";
 } else {
 $page_flag = 1;
-$formStatus = "お問合せ有難うございます。３営業日以内にご返信いたします。";
+$formStatus = "شكرا لرسالتك. سوف تتلقى ردا في غضون 3 أيام ";
 }
 
 if($page_flag == 1) {
@@ -62,9 +62,9 @@ if($page_flag == 1) {
       <meta name="viewport" content="width=device-width">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="slider/style.css">
-      <link rel="stylesheet" href="animate.min.css">
+      <link rel="stylesheet" href="../css/style.css">
+      <link rel="stylesheet" href="../slider/style.css">
+      <link rel="stylesheet" href="../animate.min.css">
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -72,12 +72,12 @@ if($page_flag == 1) {
    <body>
      <div class="loading-video" id="fadeout">
        <video class="vid" autoplay muted>
-         <source src="vid.mp4" type="video/mp4">
+         <source src="../vid.mp4" type="video/mp4">
       </video>
      </div>
       <nav class="nav slideInLeft" id="lef-nav">
          <div class="burger">
-            <img src="logo.png" alt="">
+            <img src="../logo.png" alt="">
          </div>
          <ul class="nav__list" id="top-menu">
             <li class="nav__item" class="active">
@@ -102,7 +102,7 @@ if($page_flag == 1) {
             </li>
          </ul>
          <div class="language">
-            <p>JP/<a href="eng/index.php">EN</a>/<a href="ara/index.php">AR</a></p>
+            <p><a href="../index.php">JP</a>/<a href="../eng/index.php">EN</a>/AR</p>
          </div>
          <br>
          <div class="footer">
@@ -113,7 +113,7 @@ if($page_flag == 1) {
       <div class="w3-top">
         <div id="sp-navbar-background" class="w3-bar w3-black w3-card" style="background-color:#333333!important;">
           <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-          <a href="#" class="w3-bar-item w3-button w3-padding-large"><img src="SP-logo.png" class="sp-logo-img" alt=""></a>
+          <a href="#" class="w3-bar-item w3-button w3-padding-large"><img src="../SP-logo.png" class="sp-logo-img" alt=""></a>
           <a href="#1" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
           <a href="#2" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SERVICE</a>
           <a href="#3" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WORKS</a>
@@ -141,36 +141,37 @@ if($page_flag == 1) {
       <section class="panel b-blue" id="1">
          <article class="panel__wrapper">
            <div class="first-sec-img">
-             <img class="zero-image fadeInLeft" src="zero.png" alt="">
-             <img class="arrow-image fadeInLeft" src="arrow.png" alt="">
-             <img class="hundred-image fadeIn" src="1000.png" alt="">
+             <img class="zero-image fadeInLeft" src="../zero.png" alt="">
+             <img class="arrow-image fadeInLeft" src="../arrow.png" alt="">
+             <img class="hundred-image fadeIn" src="../1000.png" alt="">
            </div>
            <div class="first-img-sec-sp">
-             <img class="first-img-sp fadeIn" src="First-sec-img-sp.png" alt="">
+             <img class="first-img-sp fadeIn" src="../First-sec-img-sp.png" alt="">
            </div>
-              <p class="first-sec-text fadeIn">新しいを考えて、実行する。</p>
-              <a class="about-link" href="http://kuro-works.com/sub-link/index.php/about/"><button class="first-sec-button fadeIn">さらに詳しく</button></a>
-              <p class="first-sec-text-two fadeIn">NEWS&nbsp;&nbsp;<span class="news-line"></span>&nbsp;&nbsp; SEE ALL&nbsp; ></p>
-              <p class="first-sec-text-two-text fadeIn">19/06/20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 企画の段階からご提案させていただき</p>
-              <p class="first-sec-text-two-text fadeIn">19/06/20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 企画の段階からご提案させていただき</p>
-              <p class="first-sec-text-two-text fadeIn">19/06/20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 企画の段階からご提案させていただき</p>
+              <p class="first-sec-text fadeIn">أفكار جديدة و مميزة</p>
+              <a class="about-link" href="http://kuro-works.com/sub-link/index.php/about-eng/"><button class="first-sec-button fadeIn">المزيد من التفاصيل</button></a>
+              <p class="first-sec-text-two fadeIn">أخبار&nbsp;&nbsp;<span class="news-line"></span>&nbsp;&nbsp; اظهار الكل&nbsp; ></p>
+              <p class="first-sec-text-two-text fadeIn">19/06/20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; سوف نقترح من مرحلة التخطيط</p>
+              <p class="first-sec-text-two-text fadeIn">19/06/20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; سوف نقترح من مرحلة التخطيط</p>
+              <p class="first-sec-text-two-text fadeIn">19/06/20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; سوف نقترح من مرحلة التخطيط</p>
          </article>
       </section>
       <section class="panel b-yellow" id="2">
          <article class="panel__wrapper_two">
             <div class="panel__content_two">
-              <p class="first-sec-text-two slider-title-sp">SERVICE&nbsp;&nbsp;<span style="width:77%" class="news-line"></span></p>
+              <p class="first-sec-text-two slider-title-sp">الخدمات&nbsp;&nbsp;<span style="width:77%" class="news-line"></span></p>
               <div class="slideshow-container">
 
                 <div class="mySlides fade">
-                  <img class="slider-img" src="pc_service_info_1.png" style="width:100%">
+                  <img class="slider-img" src="../pc_service_info_1.png" style="width:100%">
                   <div class="text">
                     <h2>WEB</h2>
                     <div class="slider-text">
-                      <p>流行りのデザインは数多くありますが <br>
-                        我々はお客様の要望に合ったサイトを <br>
-                        企画の段階からご提案させていただき <br>
-                        デザイン、実装、運用までいたします。 </p>
+                      <p>هناك العديد من البدع التصميم هناك<br>
+                        لكننا ننشئ موقع ويب يطابق<br>
+                        مطالب العميل من مرحلة التخطيط<br>
+                        اقتراح التصميم ، وحتى<br>
+                        التنفيذ والتطبيق </p>
                             <div class="btn">
                               <a href="#">Learn More</a>
                         </div>
@@ -179,14 +180,14 @@ if($page_flag == 1) {
                 </div>
 
                 <div class="mySlides fade">
-                  <img class="slider-img" src="pc_service_info_2.png" style="width:100%">
+                  <img class="slider-img" src="../pc_service_info_2.png" style="width:100%">
                   <div class="text">
                     <h2>PRINT</h2>
                     <div class="slider-text">
-                    <p>チラシ、パンフレット、冊子などの <br>
-                      印刷物も対応可能です。 <br>
-                      お客様の用途にあった素材や <br>
-                      特殊印刷のご提案までいたします。 </p>
+                    <p>يمكننا أيضا التعامل مع المنشورات والنشرات <br>
+                      الكتيبات والمواد المطبوعة الأخرى<br>
+                      يمكننا تقديم مقترحات للمواد و<br>
+                      الطباعة الخاصة وفقا لطلبك</p>
                     <div class="btn">
                       <a href="#">Learn More</a>
                     </div>
@@ -195,14 +196,14 @@ if($page_flag == 1) {
                 </div>
 
                 <div class="mySlides fade">
-                  <img class="slider-img" src="pc_service_info_3.png" style="width:100%">
+                  <img class="slider-img" src="../pc_service_info_3.png" style="width:100%">
                   <div class="text">
                       <h2>OTHER</h2>
                       <div class="slider-text">
-                      <p>イラスト制作、動画制作、写真撮影、<br>
-                        動画撮影、モデルのアサイン<br>
-                        広告のバナーから動画まで<br>
-                        クリエイティブに関してご相談ください。 </p>
+                      <p>يرجى التشاور معنا حول أي<br>
+                        العمل بما في ذلك التوضيح<br>
+                        تصوير الفيديو ، إنتاج الفيديو ، التصوير الفوتوغرافي <br>
+                        نموذج المهمة ، واللافتات الإعلانية</p>
                        <div class="btn">
                          <a href="#">Learn More</a>
                        </div>
@@ -236,70 +237,70 @@ if($page_flag == 1) {
          <article class="panel__wrapper_three">
             <div class="panel__content_three">
               <div class="third-sec-images">
-                <p class="first-sec-text-two works-title-sp">NEWS&nbsp;&nbsp;<span class="news-line"></span>&nbsp;&nbsp; SEE ALL&nbsp; ></p>
-                <img class="third-sec-img" src="works-1.png" alt="">
-                <img class="third-sec-img" src="works-2.png" alt="">
-                <img class="third-sec-img" src="works-3.png" alt="">
-                <img class="third-sec-img" src="works-4.png" alt="">
+                <p class="first-sec-text-two works-title-sp">أخبار&nbsp;&nbsp;<span class="news-line"></span>&nbsp;&nbsp; اظهار الكل&nbsp; ></p>
+                <img class="third-sec-img" src="../works-1.png" alt="">
+                <img class="third-sec-img" src="../works-2.png" alt="">
+                <img class="third-sec-img" src="../works-3.png" alt="">
+                <img class="third-sec-img" src="../works-4.png" alt="">
+
               </div>
             </div>
          </article>
       </section>
       <section class="panel b-green" id="4">
-         <article class="panel__wrapper_four">
-            <div class="panel__content_four">
-               <h1 class="panel__headline_four">CONTACT</h1>
-               <img class="contact-image" src="pc_contact_logo.png" alt="">
-               <div id="contactForm">
-              <p class="form-top-message"><?php echo $formStatus ?></p>
-               <form class="form" method="post" action="#contactForm">
-                 <div class="form_input">
-                   <label for="name">お名前 ※必須
-                     <span class="error"><?php if (!empty($nameErr)) {echo $nameErr;} ?>
-                     </span>
-                   </label>
-                   <input type="text" id="name" name="name" placeholder="お名前" maxlength="30" value="<?php if (!empty($name)) {echo $name;} ?>">
-                 </div>
+        <article class="panel__wrapper_four">
+           <div class="panel__content_four">
+              <h1 class="panel__headline_four">تواصل معنا</h1>
+              <img class="contact-image english-img" src="../pc_contact_logo.png" alt="">
+              <div id="contactForm">
+             <p class="form-top-message"><?php echo $formStatus ?></p>
+              <form class="form" method="post" action="#contactForm">
+                <div class="form_input">
+                  <label for="name">الاسم
+                    <span class="error"><?php if (!empty($nameErr)) {echo $nameErr;} ?>
+                    </span>
+                  </label>
+                  <input type="text" id="name" name="name" placeholder="الاسم" maxlength="30" value="<?php if (!empty($name)) {echo $name;} ?>">
+                </div>
 
-                 <br>
+                <br>
 
-                 <div class="form_input">
-                   <label for="mail">メールアドレス ※必須
-                     <span class="error"><?php if (!empty($mailErr)) {echo $mailErr;} ?>
-                     </span>
-                   </label>
-                   <input type="text" id="mail" name="mail" placeholder="メールアドレス" maxlength="50" value="<?php if (!empty($mail)) {echo $mail;} ?>">
-                 </div>
+                <div class="form_input">
+                  <label for="mail">عنوان البريد الإلكتروني * مطلوب
+                    <span class="error"><?php if (!empty($mailErr)) {echo $mailErr;} ?>
+                    </span>
+                  </label>
+                  <input type="text" id="mail" name="mail" placeholder="عنوان البريد الإلكتروني * مطلوب" maxlength="50" value="<?php if (!empty($mail)) {echo $mail;} ?>">
+                </div>
 
-                 <br>
+                <br>
 
-                 <div class="form_input">
-                   <label for="mailCheck">メールアドレス(確認) ※必須
-                     <span class="error"><?php if (!empty($mailCheckErr)) {echo $mailCheckErr;} ?>
-                     </span>
-                   </label>
-                   <input type="text" id="mailCheck" name="mailCheck" placeholder="メールアドレス" maxlength="50" value="<?php if (!empty($mailCheck)) {echo $mailCheck;} ?>">
-                 </div>
+                <div class="form_input">
+                  <label for="mailCheck">عنوان البريد الإلكتروني (التأكيد) * مطلوب
+                    <span class="error"><?php if (!empty($mailCheckErr)) {echo $mailCheckErr;} ?>
+                    </span>
+                  </label>
+                  <input type="text" id="mailCheck" name="mailCheck" placeholder="عنوان البريد الإلكتروني (التأكيد) * مطلوب" maxlength="50" value="<?php if (!empty($mailCheck)) {echo $mailCheck;} ?>">
+                </div>
 
-                 <br>
+                <br>
 
-                 <div class="form_input">
-                   <label for="message">お問い合わせ内容 ※必須
-                     <span class="error"><?php if (!empty($messageErr)) {echo $messageErr;} ?>
-                     </span>
-                   </label>
-                   <textarea style="height:100px" type="text" id="message" name="message" placeholder="お問い合わせ内容" maxlength="500"  value="<?php if (!empty($message)) {echo $message;} ?>"></textarea>
-                 </div>
-                 <br>
+                <div class="form_input">
+                  <label for="message">تفاصيل الرسالة * مطلوب
+                    <span class="error"><?php if (!empty($messageErr)) {echo $messageErr;} ?>
+                    </span>
+                  </label>
+                  <textarea style="height:100px" type="text" id="message" name="message" placeholder="تفاصيل الرسالة * مطلوب" maxlength="500"  value="<?php if (!empty($message)) {echo $message;} ?>"></textarea>
+                </div>
+                <br>
 
-                 <input type="submit" name="submit" value="送信">
-               </form>
-             </div>
+                <input type="submit" name="submit" value="إرسال">
+              </form>
             </div>
-          </article>
-
+           </div>
+         </article>
       </section>
       <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-      <script  src="js/index.js"></script>
+      <script  src="../js/index.js"></script>
    </body>
 </html>
