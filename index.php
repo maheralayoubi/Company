@@ -56,7 +56,7 @@ if($page_flag == 1) {
 <html lang="en" >
    <head>
       <meta charset="UTF-8">
-      <title>Kuro</title>
+      <title>KURO</title>
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
       <meta name="viewport" content="width=device-width">
@@ -68,6 +68,7 @@ if($page_flag == 1) {
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="shortcut icon" href="icon_fav.png" type="image/png" sizes="16x16">
    </head>
    <body>
      <div class="loading-video" id="fadeout">
