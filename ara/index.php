@@ -150,7 +150,7 @@ if($page_flag == 1) {
              <img class="first-img-sp fadeIn" src="../First-sec-img-sp.png" alt="">
            </div>
               <p class="first-sec-text fadeIn">أفكار جديدة و مميزة</p>
-              <a class="about-link" href="http://kuro-works.com/sub-link/index.php/about-eng/"><button class="first-sec-button fadeIn">المزيد من التفاصيل</button></a>
+              <a class="about-link" href="http://kuro-works.com/sub-link/index.php/about-ara/"><button class="first-sec-button fadeIn">المزيد من التفاصيل</button></a>
               <p class="first-sec-text-two fadeIn">أخبار&nbsp;&nbsp;<span class="news-line"></span>&nbsp;&nbsp; اظهار الكل&nbsp; ></p>
               <p class="first-sec-text-two-text fadeIn">19/06/20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; سوف نقترح من مرحلة التخطيط</p>
               <p class="first-sec-text-two-text fadeIn">19/06/20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; سوف نقترح من مرحلة التخطيط</p>
