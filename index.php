@@ -296,7 +296,7 @@ if($page_flag == 1) {
              </div>
             </div>
             <div class="footer-sp">
-              <p>Copyright © 2019 INTRICK. All Rights Reserved.</p>
+              <p>Copyright © 2019 KURO. All Rights Reserved.</p>
             </div>
           </article>
       </section>
