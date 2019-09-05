@@ -236,7 +236,7 @@ if($page_flag == 1) {
          <article class="panel__wrapper_three">
             <div class="panel__content_three">
               <div class="third-sec-images">
-                <p class="first-sec-text-two works-title-sp">WORKS&nbsp;&nbsp;<span class="news-line"></span></p>
+                <p class="first-sec-text-two works-title-sp">WORKS&nbsp;&nbsp;<span style="width:330px;" class="news-line works-line"></span></p>
                 <img class="third-sec-img" src="../works-1.png" alt="">
                 <img class="third-sec-img" src="../works-2.png" alt="">
                 <img class="third-sec-img" src="../works-3.png" alt="">

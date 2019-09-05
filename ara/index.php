@@ -151,14 +151,14 @@ if($page_flag == 1) {
            </div>
               <p class="first-sec-text fadeIn">أفكار جديدة و مميزة</p>
               <a class="about-link" href="http://kuro-works.com/sub-link/index.php/about-ara/"><button class="first-sec-button fadeIn">المزيد من التفاصيل</button></a>
-              <p class="first-sec-text-two fadeIn">أخبار&nbsp;&nbsp;<span class="news-line"></span></p>
+              <p class="first-sec-text-two fadeIn">أخبار&nbsp;&nbsp;<span style="width:355px;" class="news-line"></span></p>
               <p class="first-sec-text-two-text fadeIn">19/09/03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;نشر الموقع الرسمي للشركة </p>
          </article>
       </section>
       <section class="panel b-yellow" id="2">
          <article class="panel__wrapper_two">
             <div class="panel__content_two">
-              <p class="first-sec-text-two slider-title-sp">الخدمات&nbsp;&nbsp;<span style="width:77%" class="news-line"></span></p>
+              <p class="first-sec-text-two slider-title-sp">الخدمات&nbsp;&nbsp;<span style="width:83%" class="news-line"></span></p>
               <div class="slideshow-container">
 
                 <div class="mySlides fade">
@@ -236,7 +236,7 @@ if($page_flag == 1) {
          <article class="panel__wrapper_three">
             <div class="panel__content_three">
               <div class="third-sec-images">
-                <p class="first-sec-text-two works-title-sp">أعمال&nbsp;&nbsp;<span class="news-line"></span></p>
+                <p class="first-sec-text-two works-title-sp">أعمال&nbsp;&nbsp;<span class="news-line works-line"></span></p>
                 <img class="third-sec-img" src="../works-1.png" alt="">
                 <img class="third-sec-img" src="../works-2.png" alt="">
                 <img class="third-sec-img" src="../works-3.png" alt="">

@@ -876,14 +876,17 @@ label {
     margin-left: 7rem;
   }
   .form textarea {
-    width: 24.2rem;
+    width: 27rem;
   }
   .form input {
     padding: 10px;
-    width: 24.2rem;
+    width: 27rem;
   }
   .news-line-slider {
     width: 350px;
+  }
+  .works-line {
+    width: 360px;
   }
   .panel__content_four p{
     color: #ffff;
@@ -895,7 +898,7 @@ label {
 }
 @media all and (max-width : 550px) {
   .panel__wrapper_four {
-    margin-left: 5.3rem;
+    margin-left: 2.3rem;
   }
   .footer-sp {
     display: block;
@@ -905,6 +908,10 @@ label {
     color: #ffff;
     font-size: 13.5px;
     margin: 3rem 0;
+    margin-left: 2.8rem;
+  }
+  .third-sec-img {
+    opacity: 1;
   }
 }
 @media all and (max-width : 415px) {
@@ -920,16 +927,17 @@ label {
   }
   .form input {
     padding: 10px;
-    width: 22rem;
+    width: 27rem;
   }
   .form textarea {
-    width: 22rem;
+    width: 27rem;
   }
   .form {
     padding: 0;
   }
   .third-sec-img {
-    max-width: 25rem;
+    min-width: 27.5rem;
+    margin-left: -1.7rem;
   }
   .sp-logo-img {
     height: 25px;
@@ -937,14 +945,15 @@ label {
     margin-left: -10px;
   }
   .works-title-sp {
-    margin-left: -1.6rem;
+    margin-left: -3rem;
   }
   .third-sec-images {
-    margin-left: 14rem;
+    margin-left: 15.5rem;
   }
 }
 @media all and (max-width : 375px) {
   .third-sec-img {
-    max-width: 22rem;
+    min-width: 27.5rem;
+    margin-left: -3.2rem;
   }
 }
