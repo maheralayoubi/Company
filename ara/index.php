@@ -137,6 +137,7 @@ if($page_flag == 1) {
         <a href="#2" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICE</a>
         <a href="#3" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WORKS</a>
         <a href="#4" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">COMPANY</a>
+        <div class="language-sp"><p><a href="../index.php">JP</a>/<a href="../eng/index.php">EN</a>/AR</p></div>
       </div>
 
       <section class="panel b-blue" id="1">
@@ -167,7 +168,7 @@ if($page_flag == 1) {
                   <img class="slider-img" src="../pc_service_info_1.png" style="width:100%">
                   <div class="text">
                     <h2>WEB</h2>
-                    <div class="slider-text">
+                    <div class="slider-text slide-text-ara">
                       <p>هناك العديد من البدع التصميم هناك<br>
                         لكننا ننشئ موقع ويب يطابق<br>
                         مطالب العميل من مرحلة التخطيط<br>
@@ -184,7 +185,7 @@ if($page_flag == 1) {
                   <img class="slider-img" src="../pc_service_info_2.png" style="width:100%">
                   <div class="text">
                     <h2>PRINT</h2>
-                    <div class="slider-text">
+                    <div class="slider-text slide-text-ara">
                     <p>يمكننا أيضا التعامل مع المنشورات والنشرات <br>
                       الكتيبات والمواد المطبوعة الأخرى<br>
                       يمكننا تقديم مقترحات للمواد و<br>
@@ -200,7 +201,7 @@ if($page_flag == 1) {
                   <img class="slider-img" src="../pc_service_info_3.png" style="width:100%">
                   <div class="text">
                       <h2>OTHER</h2>
-                      <div class="slider-text">
+                      <div class="slider-text slide-text-ara">
                       <p>يرجى التشاور معنا حول أي<br>
                         العمل بما في ذلك التوضيح<br>
                         تصوير الفيديو ، إنتاج الفيديو ، التصوير الفوتوغرافي <br>

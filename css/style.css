@@ -472,6 +472,10 @@ label {
   padding-right: 30px;
   color: #fff;
 }
+.language-sp {
+  float: left;
+  margin-left: 1.7rem;
+}
 .footer{
   margin-top: 5rem;
 }
@@ -856,7 +860,7 @@ label {
     width: 24.2rem;
   }
   .form input {
-    padding-right: 155px;
+    padding: 10px;
     width: 24.2rem;
   }
   .news-line-slider {
@@ -887,7 +891,7 @@ label {
     margin-left: -17.5rem;
   }
   .form input {
-    padding-right: 135px;
+    padding: 10px;
     width: 22rem;
   }
   .form textarea {
