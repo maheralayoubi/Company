@@ -298,8 +298,10 @@ if($page_flag == 1) {
                </form>
              </div>
             </div>
+            <div class="footer-sp">
+              <p>Copyright © 2019 INTRICK. All Rights Reserved.</p>
+            </div>
           </article>
-
       </section>
       <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
       <script  src="js/index.js"></script>
