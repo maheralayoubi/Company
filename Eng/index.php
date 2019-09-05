@@ -57,6 +57,10 @@ if($page_flag == 1) {
    <head>
       <meta charset="UTF-8">
       <title>KURO</title>
+      <meta property="og:title" content="KURO">
+      <meta property="og:image" content="logo.png">
+      <meta property="og:description" content="There are tons of design fads out there, but we create a website that matches the client's demands
+       from the planning stage,the design proposal, and through to theimplementation and application.">
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
       <meta name="viewport" content="width=device-width">

@@ -837,10 +837,12 @@ label {
   .first-sec-text {
     margin-top: 2rem;
     font-size: 20px;
+    margin-left: 1rem;
   }
   .first-sec-text-two {
     font-size: 16px;
     margin-top: 3rem;
+    margin-left: 1rem;
   }
   .news-line {
     width: 340px;
@@ -852,9 +854,11 @@ label {
   }
   .first-sec-button {
     font-size: 12px;
+    margin-left: 1rem;
   }
   .first-sec-text-two-text {
     font-size: 12px;
+    margin-left: 1rem;
   }
   .panel {
     height: auto;
