@@ -558,7 +558,7 @@ label {
   }
   .hundred-image {
     width: 60rem;
-    height: 32rem;
+    height: 35rem;
     margin-bottom: 38.5rem;
   }
   .zero-image {
@@ -603,7 +603,7 @@ label {
   }
   .hundred-image {
     width: 60rem;
-    height: 30rem;
+    height: 35rem;
     margin-bottom: 45rem;
   }
   .zero-image {
@@ -694,13 +694,14 @@ label {
     width: 130%;
   }
   .first-sec-img {
-    width: 110%;
-    margin-left: 0rem;
+    width: 120%;
     margin-top: 2rem;
+    margin-left: 2rem;
   }
   .hundred-image {
       width: 60rem;
       animation-delay: 1.6s;
+      margin-top: 2rem;
   }
   .zero-image {
     margin-bottom: 60rem;
@@ -710,19 +711,19 @@ label {
     animation-delay: 1.2s;
   }
   .first-sec-text {
-    margin-left: 1rem;
+    margin-left: 3rem;
     animation-delay: 1.3s;
   }
   .first-sec-button {
-    margin-left: 1rem;
+    margin-left: 3rem;
     animation-delay: 1.3s;
   }
   .first-sec-text-two  {
-    margin-left: 1rem;
+    margin-left: 3rem;
     animation-delay: 1.3s;
   }
   .first-sec-text-two-text {
-    margin-left: 1rem;
+    margin-left: 3rem;
     animation-delay: 1.3s;
   }
   .panel__wrapper_two {
