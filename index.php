@@ -127,7 +127,6 @@ if($page_flag == 1) {
               <a href="#" class="w3-bar-item w3-button">Media</a>
             </div>
           </div>-->
-          <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
         </div>
       </div>
 
@@ -152,10 +151,8 @@ if($page_flag == 1) {
            </div>
               <p class="first-sec-text fadeIn">新しいを考えて、実行する。</p>
               <a class="about-link" href="http://kuro-works.com/sub-link/index.php/about/"><button class="first-sec-button fadeIn">さらに詳しく</button></a>
-              <p class="first-sec-text-two fadeIn">NEWS&nbsp;&nbsp;<span class="news-line"></span>&nbsp;&nbsp; SEE ALL&nbsp; ></p>
-              <p class="first-sec-text-two-text fadeIn">19/06/20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 企画の段階からご提案させていただき</p>
-              <p class="first-sec-text-two-text fadeIn">19/06/20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 企画の段階からご提案させていただき</p>
-              <p class="first-sec-text-two-text fadeIn">19/06/20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 企画の段階からご提案させていただき</p>
+              <p class="first-sec-text-two fadeIn">NEWS&nbsp;&nbsp;<span class="news-line"></span></p>
+              <p class="first-sec-text-two-text fadeIn">19/09/03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; オフィシャルサイトがリリースしました。</p>
          </article>
       </section>
       <section class="panel b-yellow" id="2">
@@ -238,7 +235,7 @@ if($page_flag == 1) {
          <article class="panel__wrapper_three">
             <div class="panel__content_three">
               <div class="third-sec-images">
-                <p class="first-sec-text-two works-title-sp">NEWS&nbsp;&nbsp;<span class="news-line"></span>&nbsp;&nbsp; SEE ALL&nbsp; ></p>
+                <p class="first-sec-text-two works-title-sp">WORKS&nbsp;&nbsp;<span class="news-line"></span>&nbsp;&nbsp; SEE ALL&nbsp; ></p>
                 <img class="third-sec-img" src="works-1.png" alt="">
                 <img class="third-sec-img" src="works-2.png" alt="">
                 <img class="third-sec-img" src="works-3.png" alt="">
