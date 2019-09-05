@@ -472,9 +472,15 @@ label {
   padding-right: 30px;
   color: #fff;
 }
+.language p a {
+  text-decoration: none;
+}
 .language-sp {
   float: left;
   margin-left: 1.7rem;
+}
+.language-sp p a {
+  text-decoration: none;
 }
 .footer{
   margin-top: 5rem;

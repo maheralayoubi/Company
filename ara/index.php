@@ -103,7 +103,7 @@ if($page_flag == 1) {
             </li>
          </ul>
          <div class="language">
-            <p><a href="../index.php">JP</a>/<a href="../eng/index.php">EN</a>/AR</p>
+            <p><a style="opacity: 0.3;" href="../index.php">JP</a>/<a style="opacity: 0.3;" href="../eng/index.php">EN</a>/AR</p>
          </div>
          <br>
          <div class="footer">
@@ -136,7 +136,7 @@ if($page_flag == 1) {
         <a href="#2" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICE</a>
         <a href="#3" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WORKS</a>
         <a href="#4" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">COMPANY</a>
-        <div class="language-sp"><p><a href="../index.php">JP</a>/<a href="../eng/index.php">EN</a>/AR</p></div>
+        <div class="language-sp"><p><a style="opacity: 0.3;" href="../index.php">JP</a>/<a style="opacity: 0.3;" href="../eng/index.php">EN</a>/AR</p></div>
       </div>
 
       <section class="panel b-blue" id="1">
