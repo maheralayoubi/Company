@@ -58,7 +58,7 @@ if($page_flag == 1) {
       <meta charset="UTF-8">
       <title>KURO</title>
       <meta property="og:title" content="KURO">
-      <meta property="og:image" content="logo.png">
+      <meta property="og:image" content="works-4.png">
       <meta property="og:description" content="流行りのデザインは数多くありますが我々はお客様の要望に合ったサイト
       を企画の段階からご提案させていただきデザイン、実装、運用までいたします。">
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -83,6 +83,7 @@ if($page_flag == 1) {
       <nav class="nav slideInLeft" id="lef-nav">
          <div class="burger">
             <img src="logo.png" alt="">
+            <img style="display:none;" src="post.png" alt="">
          </div>
          <ul class="nav__list" id="top-menu">
             <li class="nav__item" class="active">

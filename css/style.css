@@ -225,7 +225,7 @@ ul {
 .zero-image {
   max-width: 11rem;
   max-height: 25rem;
-  margin-bottom: 52.5rem;
+  margin-bottom: 57rem;
   animation-duration: 0.8s;
   animation-delay: 5s;
   animation-fill-mode: both;
@@ -233,7 +233,7 @@ ul {
 .arrow-image {
   max-width: 4rem;
   max-height: 4rem;
-  margin-bottom: 51rem;
+  margin-bottom: 56rem;
   margin-left: 5rem;
   animation-duration: 0.8s;
   animation-delay: 5.3s;
@@ -241,8 +241,8 @@ ul {
 }
 .hundred-image {
   width: 60rem;
-  height: 35rem;
-  margin-bottom: 33rem;
+  height: 25rem;
+  margin-bottom: 45rem;
   margin-left: 5rem;
   margin-right: -5rem;
   animation-duration: 1s;
@@ -554,12 +554,12 @@ label {
     margin-left: 9rem;
   }
   .arrow-image {
-    margin-bottom: 55rem;
+    margin-bottom: 57rem;
   }
   .hundred-image {
     width: 60rem;
-    height: 35rem;
-    margin-bottom: 38.5rem;
+    height: 25rem;
+    margin-bottom: 46rem;
   }
   .zero-image {
     margin-bottom: 56rem;
@@ -603,8 +603,8 @@ label {
   }
   .hundred-image {
     width: 60rem;
-    height: 35rem;
-    margin-bottom: 45rem;
+    height: 25rem;
+    margin-bottom: 50rem;
   }
   .zero-image {
     margin-bottom: 62rem;
