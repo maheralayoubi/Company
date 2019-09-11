@@ -62,6 +62,7 @@ if($page_flag == 1) {
       <meta property="og:description" content="流行りのデザインは数多くありますが我々はお客様の要望に合ったサイト
       を企画の段階からご提案させていただきデザイン、実装、運用までいたします。">
       <meta name="google-site-verification" content="fwC70MvlUWiV_L38tc_ZAuFkezqqAuPBu17MjvI7NbA" />
+      <meta name=”keywords” content=content="keyword" />
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
       <meta name="viewport" content="width=device-width">

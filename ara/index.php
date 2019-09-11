@@ -61,6 +61,7 @@ if($page_flag == 1) {
       <meta property="og:description" content="هناك العديد من البدع التصميم هنا
         لكننا ننشئ موقع ويب يطابق  مطالب العميل من مرحلة التخطيط  اقتراح التصميم ، وحتى  التنفيذ والتطبيق ">
       <meta name="google-site-verification" content="fwC70MvlUWiV_L38tc_ZAuFkezqqAuPBu17MjvI7NbA" />
+      <meta name=”keywords” content=content="keyword" />
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
       <meta name="viewport" content="width=device-width">

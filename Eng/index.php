@@ -62,6 +62,7 @@ if($page_flag == 1) {
       <meta property="og:description" content="There are tons of design fads out there, but we create a website that matches the client's demands
        from the planning stage,the design proposal, and through to theimplementation and application.">
       <meta name="google-site-verification" content="fwC70MvlUWiV_L38tc_ZAuFkezqqAuPBu17MjvI7NbA" />
+      <meta name=”keywords” content=content="keyword" />
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
       <meta name="viewport" content="width=device-width">
