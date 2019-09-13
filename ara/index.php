@@ -1,5 +1,5 @@
 <?php
-$to = "n.masaoka@kuroworks.com, m.alayoubi@kuroworks.com, maher91syr@gmail.com";
+$to = "n.masaoka@kuroworks.com, m.alayoubi@kuroworks.com";
 $name = $mail = $mailCheck = $message = "";
 $nameErr = $mailErr = $mailCheckErr = $messageErr = "";
 $page_flag = 0;
