@@ -266,9 +266,7 @@ if($page_flag == 1) {
                    </label>
                    <input type="text" id="name" name="name" placeholder="お名前" maxlength="30" value="<?php if (!empty($name)) {echo $name;} ?>">
                  </div>
-
                  <br>
-
                  <div class="form_input">
                    <label for="mail">メールアドレス ※必須
                      <span class="error"><?php if (!empty($mailErr)) {echo $mailErr;} ?>
@@ -276,9 +274,7 @@ if($page_flag == 1) {
                    </label>
                    <input type="text" id="mail" name="mail" placeholder="メールアドレス" maxlength="50" value="<?php if (!empty($mail)) {echo $mail;} ?>">
                  </div>
-
                  <br>
-
                  <div class="form_input">
                    <label for="mailCheck">メールアドレス(確認) ※必須
                      <span class="error"><?php if (!empty($mailCheckErr)) {echo $mailCheckErr;} ?>
@@ -286,9 +282,7 @@ if($page_flag == 1) {
                    </label>
                    <input type="text" id="mailCheck" name="mailCheck" placeholder="メールアドレス" maxlength="50" value="<?php if (!empty($mailCheck)) {echo $mailCheck;} ?>">
                  </div>
-
                  <br>
-
                  <div class="form_input">
                    <label for="message">お問い合わせ内容 ※必須
                      <span class="error"><?php if (!empty($messageErr)) {echo $messageErr;} ?>
@@ -297,7 +291,6 @@ if($page_flag == 1) {
                    <textarea style="height:100px" type="text" id="message" name="message" placeholder="お問い合わせ内容" maxlength="500"  value="<?php if (!empty($message)) {echo $message;} ?>"></textarea>
                  </div>
                  <br>
-
                  <input type="submit" name="submit" value="送信">
                </form>
              </div>
