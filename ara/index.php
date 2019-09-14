@@ -267,9 +267,7 @@ if($page_flag == 1) {
                   </label>
                   <input type="text" id="name" name="name" placeholder="الاسم" maxlength="30" value="<?php if (!empty($name)) {echo $name;} ?>">
                 </div>
-
                 <br>
-
                 <div class="form_input">
                   <label for="mail">عنوان البريد الإلكتروني * مطلوب
                     <span class="error"><?php if (!empty($mailErr)) {echo $mailErr;} ?>
@@ -277,9 +275,7 @@ if($page_flag == 1) {
                   </label>
                   <input type="text" id="mail" name="mail" placeholder="عنوان البريد الإلكتروني * مطلوب" maxlength="50" value="<?php if (!empty($mail)) {echo $mail;} ?>">
                 </div>
-
                 <br>
-
                 <div class="form_input">
                   <label for="mailCheck">عنوان البريد الإلكتروني (التأكيد) * مطلوب
                     <span class="error"><?php if (!empty($mailCheckErr)) {echo $mailCheckErr;} ?>
@@ -287,9 +283,7 @@ if($page_flag == 1) {
                   </label>
                   <input type="text" id="mailCheck" name="mailCheck" placeholder="عنوان البريد الإلكتروني (التأكيد) * مطلوب" maxlength="50" value="<?php if (!empty($mailCheck)) {echo $mailCheck;} ?>">
                 </div>
-
                 <br>
-
                 <div class="form_input">
                   <label for="message">تفاصيل الرسالة * مطلوب
                     <span class="error"><?php if (!empty($messageErr)) {echo $messageErr;} ?>
@@ -298,7 +292,6 @@ if($page_flag == 1) {
                   <textarea style="height:100px" type="text" id="message" name="message" placeholder="تفاصيل الرسالة * مطلوب" maxlength="500"  value="<?php if (!empty($message)) {echo $message;} ?>"></textarea>
                 </div>
                 <br>
-
                 <input type="submit" name="submit" value="إرسال">
               </form>
             </div>
