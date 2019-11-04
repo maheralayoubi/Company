@@ -130,29 +130,3 @@ function four() {
     document.getElementById('nav-opacity-works').style.opacity = '0.3';
     document.getElementById('nav-opacity-company').style.opacity = '1';
 }
-function one() {
-    document.getElementById('nav-opacity-about').style.opacity = '1';
-    document.getElementById('nav-opacity-service').style.opacity = '0.3';
-    document.getElementById('nav-opacity-works').style.opacity = '0.3';
-    document.getElementById('nav-opacity-company').style.opacity = '0.3';
-}
-
-function two() {
-    document.getElementById('nav-opacity-service').style.opacity = '1';
-    document.getElementById('nav-opacity-about').style.opacity = '0.3';
-    document.getElementById('nav-opacity-works').style.opacity = '0.3';
-    document.getElementById('nav-opacity-company').style.opacity = '0.3';
-}
-function three() {
-    document.getElementById('nav-opacity-about').style.opacity = '0.3';
-    document.getElementById('nav-opacity-service').style.opacity = '0.3';
-    document.getElementById('nav-opacity-works').style.opacity = '1';
-    document.getElementById('nav-opacity-company').style.opacity = '0.3';
-}
-
-function four() {
-    document.getElementById('nav-opacity-service').style.opacity = '0.3';
-    document.getElementById('nav-opacity-about').style.opacity = '0.3';
-    document.getElementById('nav-opacity-works').style.opacity = '0.3';
-    document.getElementById('nav-opacity-company').style.opacity = '1';
-}
