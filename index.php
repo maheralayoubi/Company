@@ -157,7 +157,7 @@ if($page_flag == 1) {
              <img class="first-img-sp fadeIn" src="First-sec-img-sp.png" alt="">
            </div>
               <p class="first-sec-text fadeIn">新しいを考えて、実行する。</p>
-              <a class="about-link" href="http://kuro-works.com/sub-link/index.php/about/"><button class="first-sec-button fadeIn">さらに詳しく</button></a>
+              <a class="about-link" href="https://kuro-works.com/sub-link/index.php/about/"><button class="first-sec-button fadeIn">さらに詳しく</button></a>
               <p class="first-sec-text-two fadeIn">NEWS&nbsp;&nbsp;<span class="news-line"></span></p>
               <p class="first-sec-text-two-text fadeIn">19/09/03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; オフィシャルサイトがリリースしました。</p>
          </article>
@@ -217,7 +217,7 @@ if($page_flag == 1) {
                 </div>
 
                 <!--<a class="next" onclick="plusSlides(1)">&#10093;</a>-->
-                <a class="next" onclick="plusSlides(1)"><svg xmlns="http://www.w3.org/2000/svg" class="next-icon" width="55.56" height="106.56" viewBox="0 0 55.56 106.56">
+                <a class="next" onclick="plusSlides(1)"><svg xmlns="https://www.w3.org/2000/svg" class="next-icon" width="55.56" height="106.56" viewBox="0 0 55.56 106.56">
                   <defs>
                     <style>
                       .cls-1 {
@@ -298,7 +298,7 @@ if($page_flag == 1) {
             </div>
           </article>
       </section>
-      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
       <script  src="js/index.js"></script>
    </body>
 </html>
