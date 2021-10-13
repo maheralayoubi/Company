@@ -10,6 +10,16 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-color: #111111;
+  animation: pulsate 3s ease-in-out;
+}
+
+@keyframes pulsate {
+  0% {
+    background: white;
+  }
+  100% {
+    background: black;
+  }
 }
 
 ul {
@@ -18,11 +28,6 @@ ul {
   margin: 0;
 }
 
-.loading-video {
-  width: 100%;
-  z-index: 10;
-  position: absolute;
-}
 .vid {
   position: fixed;
   left: 0rem;
@@ -683,9 +688,9 @@ label {
   .slideInLeft {
     display: none;
   }
-  .loading-video {
+  /* .loading-video {
     display: none;
-  }
+  } */
   .w3-top {
     display: block;
   }
@@ -968,3 +973,187 @@ label {
     margin-left: -3.2rem;
   }
 }
+
+
+/* Ghaith Animation Start */
+
+/* MAIN CENTERED DIV */
+
+.kuro-main {
+  font-family: "Helvetica";
+  font-size: 64px;
+  position: fixed;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: Bold;
+  text-align: center;
+}
+
+.kuro-wrapper {
+  display: flex;
+}
+
+.numbers-letters {
+  letter-spacing: 28px;
+  overflow: hidden;
+  height: 70px;
+}
+
+.numbers-letters div {
+  margin-bottom: 50px;
+}
+
+/* Animation starting with FFFFFF to 111111 */
+
+.kuro-animation {
+  animation: numbers-letters-animation 2s linear;
+  color: #f0efe9;
+  letter-spacing: 32px;
+}
+
+@keyframes numbers-letters-animation {
+  0% {
+    margin-top: -1600px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+.two-numbers {
+  color: #fcfcfa;
+}
+
+.three-numbers {
+  color: #fafaf8;
+}
+
+.four-numbers {
+  color: #f9f9f6;
+}
+
+.five-numbers {
+  color: #f7f7f4;
+}
+
+.six-numbers {
+  color: #f5f5f1;
+}
+
+.seven-numbers {
+  color: #f3f2ed;
+}
+
+.eight-numbers {
+  color: #f0efe9;
+}
+
+.nine-numbers {
+  color: #ecebe4;
+}
+
+.A-letters {
+  color: #4b4b49;
+  letter-spacing: 20px;
+}
+
+.B-letters {
+  color: #3c3c3a;
+  letter-spacing: 20px;
+}
+
+.C-letters {
+  color: #30302e;
+  letter-spacing: 20px;
+}
+
+.D-letters {
+  color: #262625;
+  letter-spacing: 20px;
+}
+
+.E-letters {
+  color: #1e1e1e;
+  letter-spacing: 23px;
+}
+
+.F-letters {
+  color: black;
+  letter-spacing: 26px;
+}
+
+/* Hashtag animation */
+
+.kuro-hashtag {
+  letter-spacing: 28px;
+  animation: hashtag-animation 8s forwards;
+}
+
+@keyframes hashtag-animation {
+  0% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+
+/* Zeros animation  */
+
+.zeros h1 {
+  position: relative;
+  display: inline-block;
+  font-size: 64px;
+  letter-spacing: 30px;
+  float: left;
+  font-family: "Helvetica";
+  font-weight: Bold;
+  color: #111111;
+}
+
+.zeros h1::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  color: white;
+  overflow: hidden;
+  animation: zeros-kuro-animation 0.5s linear;
+}
+
+/* KURO animation  */
+
+.kuro-letters {
+  display: flex;
+}
+
+.kuro-letters h1 {
+  position: relative;
+  display: inline-block;
+  color: #c6c6c6;
+  font-family: "system-ui";
+  font-size: 64px;
+  font-weight: 900;
+}
+
+.kuro-letters h1::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color: #111111;
+  overflow: hidden;
+  animation: zeros-kuro-animation 0.5s linear;
+}
+
+@keyframes zeros-kuro-animation {
+  0% {
+    width: 100%;
+  }
+}
+
+/* Ghaith Animation End */

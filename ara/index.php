@@ -76,11 +76,57 @@ if($page_flag == 1) {
       <link rel="shortcut icon" href="../icon_fav.png" type="image/png" sizes="16x16">
    </head>
    <body>
-     <div class="loading-video" id="fadeout">
-       <video class="vid" autoplay muted>
-         <source src="../vid.mp4" type="video/mp4">
-      </video>
-     </div>
+      <!-- Ghaith Animation Start -->
+
+<div class="kuro-main" id="kuro-main">
+
+<div class="kuro-letters" id="kuro-letters">
+  <h1 data-text="&#10096">&#10096;</h1>
+  <h1 data-text="K">K</h1>
+  <h1 data-text="U">U</h1>
+  <h1 data-text="R">R</h1>
+  <h1 data-text="O">O</h1>
+</div>
+
+<div class="kuro-wrapper">
+
+  <div class="zeros" id="zeros">
+    <h1 data-text="#">#</h1>
+    <h1 data-text="0">0</h1>
+    <h1 data-text="0">0</h1>
+    <h1 data-text="0">0</h1>
+    <h1 data-text="0">0</h1>
+    <h1 data-text="0">0</h1>
+    <h1 data-text="0">0</h1>
+  </div>
+
+  <div class="kuro-hashtag" id="hashtag">#</div>
+
+  <div class="numbers-letters" id="numbers-letters">
+
+    <div class="F-letters" id="F-letters">FFFFFF</div>
+
+    <div class="kuro-animation" id="kuro-animation">111111</div>
+    <div class="two-numbers">222222</div>
+    <div class="three-numbers">333333</div>
+    <div class="four-numbers">444444</div>
+    <div class="five-numbers">555555</div>
+    <div class="six-numbers">666666</div>
+    <div class="seven-numbers">777777</div>
+    <div class="eight-numbers">888888</div>
+    <div class="nine-numbers">999999</div>
+    <div class="A-letters">AAAAAA</div>
+    <div class="B-letters">BBBBBB</div>
+    <div class="C-letters">CCCCCC</div>
+    <div class="D-letters">DDDDDD</div>
+    <div class="E-letters">EEEEEE</div>
+    <div class="F-letters">FFFFFF</div>
+
+  </div>
+</div>
+</div>
+
+<!-- Ghaith Animation End -->
       <nav class="nav slideInLeft" id="lef-nav">
          <div class="burger">
             <img src="../logo.png" alt="">

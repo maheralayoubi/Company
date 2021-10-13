@@ -94,16 +94,6 @@ function myFunction() {
   }
 }
 
-// Delay for the video on page load
-window.onload = function() {
-  window.setTimeout(fadeout, 5000); //8 seconds
-}
-
-function fadeout() {
-  document.getElementById('fadeout').style.display = "none";
-  //document.getElementById('lef-nav').style.display = "block";
-}
-
 function one() {
     document.getElementById('nav-opacity-about').style.opacity = '1';
     document.getElementById('nav-opacity-service').style.opacity = '0.3';
@@ -130,3 +120,87 @@ function four() {
     document.getElementById('nav-opacity-works').style.opacity = '0.3';
     document.getElementById('nav-opacity-company').style.opacity = '1';
 }
+
+
+// Ghaith Animation Start
+
+// window.onscroll = function () { window.scrollTo(0, 0); };
+
+// Elements initialization by ID
+const fLetters = document.getElementById("F-letters");
+const kuroAnimation = document.getElementById("kuro-animation");
+const zeros = document.getElementById("zeros");
+const allCharacters = document.getElementById("numbers-letters");
+const hashtag = document.getElementById("hashtag");
+const kuroLetters = document.getElementById("kuro-letters");
+const leftNav = document.getElementById("lef-nav");
+
+disableScrolling();
+
+// Hide some elements at start
+kuroAnimation.style.display = "none";
+zeros.style.display = "none";
+kuroLetters.style.display = "none";
+leftNav.style.display = "none";
+
+// Add event listener for elements animations
+kuroAnimation.addEventListener("animationend", kuroAnimationListener, false);
+zeros.addEventListener("animationend", zerosAnimationListener, false);
+kuroLetters.addEventListener(
+  "animationend",
+  kuroLettersAnimationListener,
+  false
+);
+
+// Remove F Letters and show the first animation (FFFFFF to 000000) after 1s
+setTimeout(function () {
+  fLetters.style.display = "none";
+  kuroAnimation.style.display = "block";
+}, 1000);
+
+// Define functions to handle each animation end point
+
+function kuroAnimationListener() {
+  switch (event.type) {
+    case "animationend":
+      hashtag.style.display = "none";
+      allCharacters.style.display = "none";
+      zeros.style.display = "block";
+      break;
+  }
+}
+
+function zerosAnimationListener() {
+  switch (event.type) {
+    case "animationend":
+      zeros.style.display = "none";
+      kuroLetters.style.display = "block";
+      break;
+  }
+}
+
+function kuroLettersAnimationListener() {
+  switch (event.type) {
+    case "animationend":
+      setTimeout(function () {
+        kuroLetters.style.display = "none";
+        leftNav.style.display = "block";
+        enableScrolling();
+      }, 1000);
+      break;
+  }
+}
+
+// Disable and Enable Scrolling
+
+function disableScrolling(){
+  var x=window.scrollX;
+  var y=window.scrollY;
+  window.onscroll=function(){window.scrollTo(x, y);};
+}
+
+function enableScrolling(){
+  window.onscroll=function(){};
+}
+
+// Ghaith Animation End
