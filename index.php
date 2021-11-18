@@ -410,8 +410,8 @@ C392.26,48.15,389.21,49.12,386.66,49.12z"
         </p>
       </article>
     </section>
-    <section class="panel b-yellow" id="2">
-      <article class="panel__wrapper_two">
+    <section class="panel b-yellow fadeIn" id="2">
+      <article class="panel__wrapper_two fadeIn">
         <div class="panel__content_two">
           <p class="first-sec-text-two slider-title-sp">
             SERVICE&nbsp;&nbsp;<span

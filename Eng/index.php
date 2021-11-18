@@ -77,11 +77,139 @@ if($page_flag == 1) {
       <link rel="shortcut icon" href="../icon_fav.png" type="image/png" sizes="16x16">
    </head>
    <body>
-     <div class="loading-video" id="fadeout">
-       <video class="vid" autoplay muted>
-         <source src="../vid.mp4" type="video/mp4">
-      </video>
-     </div>
+
+   <!-- Ghaith Animation Start -->
+
+   <div class="kuro-main" id="kuro-main">
+      <div class="kuro-wrapper">
+        <div class="kuro-letters" id="kuro-letters">
+          <svg viewBox="0 0 432 90">
+            <polygon
+              class="st0"
+              points="58.98,43.57 88.37,7.43 29.58,7.43 29.47,7.28 0,43.53 29.47,79.77 88.4,79.77 "
+            />
+            <path
+              class="st0"
+              d="M236.53,8.02v40.93h0.02c-0.17,2.74-2.04,4.15-5.62,4.15c-3.58,0-5.46-1.41-5.62-4.15h0.02V8.02h-28v40.93h0.06
+c0.1,9.67,4.03,18.24,11.1,24.17c6.06,5.08,14.03,7.88,22.44,7.88c18.99,0,33.34-13.75,33.54-32.05h0.06V8.02H236.53z"
+            />
+            <polygon
+              class="st0"
+              points="193.08,79.02 174.3,37.63 191.14,8.02 163.32,8.02 151.36,29.04 151.36,8.02 123.36,8.02 123.36,79.02 
+151.36,79.02 151.36,53.93 162.75,79.02 "
+            />
+            <path
+              class="st0"
+              d="M342.41,33.66c0-12.74-10.04-25.64-29.22-25.64l-35.67,0v70.99h28V58.33l9.01,20.69h30.33l-11.47-26.33
+C339.34,47.75,342.41,40.69,342.41,33.66z M305.54,41.22l-0.02-11.2c6.77,0.34,11.2,0,11.2,5.6S312.3,40.87,305.54,41.22z"
+            />
+            <path
+              class="st0"
+              d="M406.06,12.46c-11.48-7.17-26.97-7.16-38.54,0.01c-10.56,6.54-15,15.93-15,31.05s4.43,24.51,15,31.05
+c5.79,3.59,12.56,5.38,19.32,5.38c6.75,0,13.49-1.79,19.23-5.37c10.6-6.62,14.73-15.94,14.73-31.06S416.66,19.08,406.06,12.46z
+ M386.66,49.12c-2.56,0-5.6-0.97-5.6-5.6c0-4.63,3.05-5.6,5.6-5.6c1.53,0,2.94,0.43,3.88,1.17c1.14,0.9,1.72,2.39,1.72,4.43
+C392.26,48.15,389.21,49.12,386.66,49.12z"
+            />
+            <rect id="rect" x="0" y="0" width="88" height="90" fill="#111111">
+              <animate
+                attributeType="XML"
+                attributeName="width"
+                from="100"
+                to="0"
+                begin="3s"
+                dur="1s"
+                fill="freeze"
+              />
+            </rect>
+            <rect id="rect" x="110" y="0" width="83" height="90" fill="#111111">
+              <animate
+                attributeType="XML"
+                attributeName="width"
+                from="100"
+                to="0"
+                begin="3s"
+                dur="1s"
+                fill="freeze"
+              />
+            </rect>
+            <rect id="rect" x="196" y="0" width="70" height="90" fill="#111111">
+              <animate
+                attributeType="XML"
+                attributeName="width"
+                from="100"
+                to="0"
+                begin="3s"
+                dur="1s"
+                fill="freeze"
+              />
+            </rect>
+            <rect id="rect" x="277" y="0" width="70" height="90" fill="#111111">
+              <animate
+                attributeType="XML"
+                attributeName="width"
+                from="100"
+                to="0"
+                begin="3s"
+                dur="1s"
+                fill="freeze"
+              />
+            </rect>
+            <rect
+              id="rect"
+              x="350"
+              y="0"
+              width="200"
+              height="90"
+              fill="#111111"
+            >
+              <animate
+                attributeType="XML"
+                attributeName="width"
+                from="200"
+                to="0"
+                begin="3s"
+                dur="1s"
+                fill="freeze"
+              />
+            </rect>
+          </svg>
+        </div>
+
+        <div class="zeros" id="zeros">
+          <h1 data-text="#">#</h1>
+          <h1 data-text="0">0</h1>
+          <h1 data-text="0">0</h1>
+          <h1 data-text="0">0</h1>
+          <h1 data-text="0">0</h1>
+          <h1 data-text="0">0</h1>
+          <h1 data-text="0">0</h1>
+        </div>
+
+        <div class="kuro-hashtag" id="hashtag">#</div>
+        <div class="numbers-letters" id="numbers-letters">
+          <div class="F-letters" id="F-letters">FFFFFF</div>
+          <div class="kuro-animation" id="kuro-animation">111111</div>
+          <div class="two-numbers">222222</div>
+          <div class="three-numbers">333333</div>
+          <div class="four-numbers">444444</div>
+          <div class="five-numbers">555555</div>
+          <div class="six-numbers">666666</div>
+          <div class="seven-numbers">777777</div>
+          <div class="eight-numbers">888888</div>
+          <div class="nine-numbers">999999</div>
+          <div class="A-letters">AAAAAA</div>
+          <div class="B-letters">BBBBBB</div>
+          <div class="C-letters">CCCCCC</div>
+          <div class="D-letters">DDDDDD</div>
+          <div class="E-letters">EEEEEE</div>
+          <div class="F-letters">FFFFFF</div>
+        </div>
+      </div>
+    </div>
+
+<!-- Ghaith Animation End -->
+
+
       <nav class="nav slideInLeft" id="lef-nav">
          <div class="burger">
             <img src="../logo.png" alt="">

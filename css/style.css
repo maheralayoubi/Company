@@ -182,6 +182,11 @@ ul {
     transform: scale(0.8) rotate(90deg);
   }
 }
+.b-yellow {
+  animation-duration: 1s;
+  animation-delay: 5.8s;
+  animation-fill-mode: both;
+}
 
 .panel {
   height: 100vh;
@@ -634,6 +639,10 @@ label {
   }
   .b-yellow {
     margin-left: 16rem;
+    z-index: 0;
+    animation-duration: 1s;
+    animation-delay: 5.8s;
+    animation-fill-mode: both;
   }
   .panel {
     height: auto;
@@ -665,6 +674,9 @@ label {
   }
   .b-yellow {
     margin-left: 22rem;
+    animation-duration: 1s;
+    animation-delay: 5.8s;
+    animation-fill-mode: both;
   }
   .third-sec-images {
     margin-left: 9rem;
@@ -772,6 +784,11 @@ label {
     margin: 5rem 0;
     margin-left: -5rem;
   }
+  .b-yellow {
+    animation-duration: 1s;
+    animation-delay: 5.8s;
+    animation-fill-mode: both;
+  }
 }
 @media all and (max-width: 910px) {
   .slideInLeft {
@@ -814,6 +831,11 @@ label {
   }
   .panel__wrapper_four {
     margin-left: 5rem;
+  }
+  .b-yellow {
+    animation-duration: 1s;
+    animation-delay: 5.8s;
+    animation-fill-mode: both;
   }
 }
 @media all and (max-width: 710px) {
@@ -906,6 +928,11 @@ label {
     line-height: 1.5;
     width: 23rem;
   }
+  .b-yellow {
+    animation-duration: 1s;
+    animation-delay: 5.8s;
+    animation-fill-mode: both;
+  }
 }
 @media all and (max-width: 550px) {
   .panel__wrapper_four {
@@ -982,6 +1009,7 @@ label {
   transform: translate(-50%, -50%);
   font-weight: Bold;
   text-align: center;
+  z-index: 99;
 }
 
 .kuro-wrapper {
@@ -1049,38 +1077,38 @@ label {
 
 .A-letters {
   color: #4b4b49;
-  letter-spacing: 23px;
+  letter-spacing: 20px;
 }
 
 .B-letters {
   color: #3c3c3a;
-  letter-spacing: 23px;
+  letter-spacing: 20px;
 }
 
 .C-letters {
   color: #30302e;
-  letter-spacing: 23px;
+  letter-spacing: 20px;
 }
 
 .D-letters {
   color: #262625;
-  letter-spacing: 23px;
+  letter-spacing: 20px;
 }
 
 .E-letters {
   color: #1e1e1e;
-  letter-spacing: 26px;
+  letter-spacing: 23px;
 }
 
 .F-letters {
   color: black;
-  letter-spacing: 29px;
+  letter-spacing: 26px;
 }
 
 /* Hashtag animation */
 
 .kuro-hashtag {
-  letter-spacing: 23px;
+  letter-spacing: 28px;
   animation: hashtag-animation 8s forwards;
 }
 
@@ -1094,13 +1122,14 @@ label {
 }
 
 /* Zeros animation  */
+
 .zeros h1 {
   position: relative;
   display: inline-block;
   font-size: 64px;
-  letter-spacing: 32px;
-  font-family: "Helvetica";
+  letter-spacing: 30px;
   float: left;
+  font-family: "Helvetica";
   font-weight: Bold;
   color: #111111;
 }
