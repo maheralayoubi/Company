@@ -95,7 +95,7 @@ c0.1,9.67,4.03,18.24,11.1,24.17c6.06,5.08,14.03,7.88,22.44,7.88c18.99,0,33.34-13
             />
             <polygon
               class="st0"
-              points="193.08,79.02 174.3,37.63 191.14,8.02 163.32,8.02 151.36,29.04 151.36,8.02 123.36,8.02 123.36,79.02 
+              points="193.08,79.02 174.3,37.63 191.14,8.02 163.32,8.02 151.36,29.04 151.36,8.02 123.36,8.02 123.36,79.02
 151.36,79.02 151.36,53.93 162.75,79.02 "
             />
             <path
@@ -284,7 +284,7 @@ C392.26,48.15,389.21,49.12,386.66,49.12z"
              <img class="first-img-sp fadeIn" src="../First-sec-img-sp.png" alt="">
            </div>
               <p class="first-sec-text fadeIn">New ideas in action</p>
-              <a class="about-link" href="http://kuro-works.com/sub-link/index.php/about-eng/"><button class="first-sec-button fadeIn">More details</button></a>
+              <a class="about-link" href="https://kuro-works.com/about"><button class="first-sec-button fadeIn">More details</button></a>
               <p class="first-sec-text-two fadeIn">NEWS&nbsp;&nbsp;<span class="news-line"></span></p>
               <p class="first-sec-text-two-text fadeIn">19/09/03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Official corporate site released </p>
          </article>

@@ -398,7 +398,7 @@ C392.26,48.15,389.21,49.12,386.66,49.12z"
         <p class="first-sec-text fadeIn">新しいを考えて、実行する。</p>
         <a
           class="about-link"
-          href="https://kuro-works.com/sub-link/index.php/about/"
+          href="https://kuro-works.com/about"
           ><button class="first-sec-button fadeIn">さらに詳しく</button></a
         >
         <p class="first-sec-text-two fadeIn">
