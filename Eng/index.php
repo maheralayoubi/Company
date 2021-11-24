@@ -68,7 +68,7 @@ if($page_flag == 1) {
       <meta name="viewport" content="width=device-width">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-      <link rel="stylesheet" href="../css/style.css">
+      <link rel="stylesheet" href="css/style.css" />
       <link rel="stylesheet" href="../slider/style.css">
       <link rel="stylesheet" href="../animate.min.css">
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -371,10 +371,10 @@ if($page_flag == 1) {
             <div class="panel__content_three">
               <div class="third-sec-images">
                 <p class="first-sec-text-two works-title-sp">WORKS&nbsp;&nbsp;<span style="width:330px;" class="news-line works-line"></span></p>
-                <img class="third-sec-img" src="../works-1.png" alt="">
-                <img class="third-sec-img" src="../works-2.png" alt="">
-                <img class="third-sec-img" src="../works-3.png" alt="">
-                <img class="third-sec-img" src="../works-4.png" alt="">
+                <a href="https://careeon.jp/" target="_blank"><img class="third-sec-img" src="../works-2.png" alt="" /></a>
+                <a href="https://www.youtube.com/c/%E3%83%9C%E3%83%96%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB" target="_blank"><img class="third-sec-img" src="../works-youtube.png" alt="" /></a>
+                <img class="third-sec-img" src="../works-3.png" alt="" />
+                <img class="third-sec-img" src="../works-4.png" alt="" />
               </div>
             </div>
          </article>

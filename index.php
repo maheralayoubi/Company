@@ -529,7 +529,8 @@ C392.26,48.15,389.21,49.12,386.66,49.12z"
                 class="news-line works-line"
               ></span>
             </p>
-            <img class="third-sec-img" src="works-2.png" alt="" />
+            <a href="https://careeon.jp/" target="_blank"><img class="third-sec-img" src="works-2.png" alt="" /></a>
+            <a href="https://www.youtube.com/c/%E3%83%9C%E3%83%96%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB" target="_blank"><img class="third-sec-img" src="works-youtube.png" alt="" /></a>
             <img class="third-sec-img" src="works-3.png" alt="" />
             <img class="third-sec-img" src="works-4.png" alt="" />
           </div>
