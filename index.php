@@ -104,6 +104,15 @@ if($page_flag == 1) {
       type="image/png"
       sizes="16x16"
     />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6BMZHL42ET"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-6BMZHL42ET');
+    </script>
   </head>
   <body>
     <!-- Ghaith Animation Start -->
