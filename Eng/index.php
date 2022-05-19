@@ -78,7 +78,7 @@ if($page_flag == 1) {
    </head>
    <body>
 
-     <!-- Ghaith Animation Start -->
+     <!-- Ghaith Animation Start
 
      <div class="kuro-main" id="kuro-main">
        <div class="kuro-wrapper">
@@ -207,7 +207,7 @@ if($page_flag == 1) {
        </div>
      </div>
 
-     <!-- Ghaith Animation End -->
+      Ghaith Animation End -->
 
 
       <nav class="nav slideInLeft" id="lef-nav">
@@ -270,7 +270,7 @@ if($page_flag == 1) {
         <a href="#2" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICE</a>
         <a href="#3" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WORKS</a>
         <a href="#4" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">COMPANY</a>
-        <div class="language-sp"> <p><a style="opacity: 0.3;" href="../index.php">JP</a>/EN/<a style="opacity: 0.3;" href="../ara/index.php">AR</a></p></div>
+        <div class="language-sp"> <p><a style="opacity: 0.3;" href="../index.php">JP</a>/EN<!-- /<a style="opacity: 0.3;" href="../ara/index.php">AR</a>--></p></div>
       </div>
 
       <section class="panel b-blue" id="1">

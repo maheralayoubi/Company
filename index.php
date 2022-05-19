@@ -284,15 +284,16 @@ C392.26,48.15,389.21,49.12,386.66,49.12z"
           </a>
         </li>
       </ul>
-      <!--<div class="language">
+      <div class="language">
         <p>
-          JP/<a style="opacity: 0.3" href="eng/index.php">EN</a>/<a
+          JP/<a style="opacity: 0.3" href="eng/index.php">EN</a>
+          <!--/<a
             style="opacity: 0.3"
             href="ara/index.php"
             >AR</a
-          >
+          >-->
         </p>
-      </div>-->
+      </div>
       <br />
       <div class="footer">
         <p>Copyright © 2019 KURO. All Rights Reserved.</p>
