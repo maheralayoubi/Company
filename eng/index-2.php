@@ -405,18 +405,17 @@ C392.26,48.15,389.21,49.12,386.66,49.12z"
         <div class="first-img-sec-sp">
           <img class="first-img-sp fadeIn" src="First-sec-img-sp.png" alt="" />
         </div>
-        <p class="first-sec-text fadeIn">新しいを考えて、実行する。</p>
+        <p class="first-sec-text fadeIn">New ideas in action</p>
         <a
           class="about-link"
           href="https://kuro-works.com/about"
-          ><button class="first-sec-button fadeIn">さらに詳しく</button></a
+          ><button class="first-sec-button fadeIn">More details</button></a
         >
         <p class="first-sec-text-two fadeIn">
           NEWS&nbsp;&nbsp;<span class="news-line"></span>
         </p>
         <p class="first-sec-text-two-text fadeIn">
-          19/09/03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          オフィシャルサイトがリリースしました。
+          19/09/03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Official corporate site released
         </p>
       </article>
     </section>
@@ -439,12 +438,11 @@ C392.26,48.15,389.21,49.12,386.66,49.12z"
               <div class="text">
                 <h2>WEB</h2>
                 <div class="slider-text">
-                  <p>
-                    流行りのデザインは数多くありますが <br />
-                    我々はお客様の要望に合ったサイトを <br />
-                    企画の段階からご提案させていただき <br />
-                    デザイン、実装、運用までいたします。
-                  </p>
+                  <p>There are tons of design fads out there, <br>
+                    but we create a website that matches <br>
+                    the client's demands from the planning stage,<br>
+                    the design proposal, and through to the<br>
+                     implementation and application. </p>
                   <div class="btn">
                     <a href="#">Learn More</a>
                   </div>
