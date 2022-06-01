@@ -459,12 +459,10 @@ C392.26,48.15,389.21,49.12,386.66,49.12z"
               <div class="text">
                 <h2>PRINT</h2>
                 <div class="slider-text">
-                  <p>
-                    チラシ、パンフレット、冊子などの <br />
-                    印刷物も対応可能です。 <br />
-                    お客様の用途にあった素材や <br />
-                    特殊印刷のご提案までいたします。
-                  </p>
+                  <p>We can also handle leaflets, pamphlets, <br>
+                    booklets, and other print materials.<br>
+                     We can offer proposals for materials and<br>
+                      special printing in accordance to your application. </p>
                   <div class="btn">
                     <a href="#">Learn More</a>
                   </div>
@@ -481,12 +479,10 @@ C392.26,48.15,389.21,49.12,386.66,49.12z"
               <div class="text">
                 <h2>OTHER</h2>
                 <div class="slider-text">
-                  <p>
-                    イラスト制作、動画制作、写真撮影、<br />
-                    動画撮影、モデルのアサイン<br />
-                    広告のバナーから動画まで<br />
-                    クリエイティブに関してご相談ください。
-                  </p>
+                  <p>Please consult with us about any creative<br>
+                     materials including illustration,<br>
+                     video shooting, video production, photography,<br>
+                      model assignment, and advertising banners. </p>
                   <div class="btn">
                     <a href="#">Learn More</a>
                   </div>
@@ -555,7 +551,7 @@ C392.26,48.15,389.21,49.12,386.66,49.12z"
             <form class="form" method="post" action="#contactForm">
               <div class="form_input">
                 <label for="name"
-                  >お名前 ※必須
+                  >Name
                   <span class="error"
                     ><?php if (!empty($nameErr)) {echo $nameErr;} ?>
                   </span>
@@ -571,8 +567,7 @@ C392.26,48.15,389.21,49.12,386.66,49.12z"
               </div>
               <br />
               <div class="form_input">
-                <label for="mail"
-                  >メールアドレス ※必須
+                <label for="mail">Email address * required
                   <span class="error"
                     ><?php if (!empty($mailErr)) {echo $mailErr;} ?>
                   </span>
