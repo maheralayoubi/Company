@@ -278,7 +278,7 @@ if($page_flag == 1) {
             </div>
             <!--<a class="next" onclick="plusSlides(1)">&#10093;</a>-->
             <a class="next" onclick="plusSlides(1)">
-              <svg xmlns="http://www.w3.org/2000/svg" class="next-icon" width="55.56" height="106.56" viewBox="0 0 55.56 106.56">
+              <svg xmlns="https://www.w3.org/2000/svg" class="next-icon" width="55.56" height="106.56" viewBox="0 0 55.56 106.56">
                 <defs>
                   <style>
                     .cls-1 {
@@ -363,7 +363,7 @@ if($page_flag == 1) {
         </div>
       </article>
     </section>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="../js/index.js"></script>
   </body>
 </html>
