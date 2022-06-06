@@ -467,6 +467,20 @@ label {
   border: 1px solid #fff;
   background: transparent;
 }
+.contact-button {
+  width: 100%;
+  padding-bottom: 100px
+}
+.contact-button a {
+  padding: 10px 120px;
+  color: #ffff;
+  width: 30.5rem;
+  margin: 5px 0;
+  border: none;
+  border: 1px solid #fff;
+  background: transparent;
+  text-decoration: none;
+}
 ::placeholder {
   color: grey;
   font-size: 15px;
