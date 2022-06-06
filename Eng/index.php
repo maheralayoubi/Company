@@ -325,6 +325,7 @@ if($page_flag == 1) {
           <div id="contactForm">
             <p class="form-top-message"> <?php echo $formStatus ?> </p>
             <form class="form" method="post" action="#contactForm">
+              <!--
               <div class="form_input">
                 <label for="name">Name <span class="error"> <?php if (!empty($nameErr)) {echo $nameErr;} ?> </span>
                 </label>
@@ -354,6 +355,7 @@ if($page_flag == 1) {
 																																																		</textarea>
               </div>
               <br>
+            -->
               <input type="submit" name="submit" value="Send">
             </form>
           </div>
