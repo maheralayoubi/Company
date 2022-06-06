@@ -324,8 +324,8 @@ if($page_flag == 1) {
           <img class="contact-image english-img" src="../pc_contact_logo.png" alt="">
           <div id="contactForm">
             <p class="form-top-message"> <?php echo $formStatus ?> </p>
+            <!--
             <form class="form" method="post" action="#contactForm">
-              <!--
               <div class="form_input">
                 <label for="name">Name <span class="error"> <?php if (!empty($nameErr)) {echo $nameErr;} ?> </span>
                 </label>
@@ -355,10 +355,13 @@ if($page_flag == 1) {
 																																																		</textarea>
               </div>
               <br>
-            -->
-              <a href="https://kuro-works.com/about/contact/">Send</a>
-            </form>
+                        </form>
+
           </div>
+        </div>
+-->
+        <div class="contact-button">
+          <a href="https://kuro-works.com/about/contact/" value="送信">Send</a>
         </div>
         <div class="footer-sp">
           <p>Copyright © 2019 KURO. All Rights Reserved.</p>

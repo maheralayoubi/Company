@@ -552,9 +552,10 @@ C392.26,48.15,389.21,49.12,386.66,49.12z"
         <div class="panel__content_four">
           <h1 class="panel__headline_four">CONTACT</h1>
           <img class="contact-image" src="pc_contact_logo.png" alt="" />
+            <!--
           <div id="contactForm">
             <p class="form-top-message"><?php echo $formStatus ?></p>
-                    <!--
+
             <form class="form" method="post" action="#contactForm">
               <div class="form_input">
                 <label for="name"
@@ -627,13 +628,15 @@ C392.26,48.15,389.21,49.12,386.66,49.12z"
               <br />
               <input type="submit" name="submit" value="送信" />
               </form>
-            -->
-            <div class="contact-button">
-              <a href="https://kuro-works.com/about/contact/" value="送信">送信</a>
-            </div>
+
+
 
 
           </div>
+        </div>
+        -->
+        <div class="contact-button">
+          <a href="https://kuro-works.com/about/contact/" value="送信">送信</a>
         </div>
         <div class="footer-sp">
           <p>Copyright © 2019 KURO. All Rights Reserved.</p>
