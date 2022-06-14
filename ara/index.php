@@ -53,384 +53,312 @@ if($page_flag == 1) {
 }
  ?>
 <!DOCTYPE html>
-<html lang="en" >
-   <head>
-      <meta charset="UTF-8">
-      <title>KURO</title>
-      <meta property="og:title" content="KURO">
-      <meta property="og:description" content="هناك العديد من البدع التصميم هنا
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>KURO</title>
+    <meta property="og:title" content="KURO">
+    <meta property="og:description" content="هناك العديد من البدع التصميم هنا
         لكننا ننشئ موقع ويب يطابق  مطالب العميل من مرحلة التخطيط  اقتراح التصميم ، وحتى  التنفيذ والتطبيق ">
-      <meta name="google-site-verification" content="fwC70MvlUWiV_L38tc_ZAuFkezqqAuPBu17MjvI7NbA" />
-      <meta name=”keywords” content=content="keyword" />
-      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-      <meta name="viewport" content="width=device-width">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-      <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="../slider/style.css">
-      <link rel="stylesheet" href="../animate.min.css">
-      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="shortcut icon" href="../icon_fav.png" type="image/png" sizes="16x16">
-   </head>
-   <body>
-     <!-- Ghaith Animation Start -->
-
-     <div class="kuro-main" id="kuro-main">
-       <div class="kuro-wrapper">
-         <div class="kuro-letters" id="kuro-letters">
-           <svg viewBox="0 0 432 90">
-             <polygon
-               class="st0"
-               points="58.98,43.57 88.37,7.43 29.58,7.43 29.47,7.28 0,43.53 29.47,79.77 88.4,79.77 "
-             />
-             <path
-               class="st0"
-               d="M236.53,8.02v40.93h0.02c-0.17,2.74-2.04,4.15-5.62,4.15c-3.58,0-5.46-1.41-5.62-4.15h0.02V8.02h-28v40.93h0.06
- c0.1,9.67,4.03,18.24,11.1,24.17c6.06,5.08,14.03,7.88,22.44,7.88c18.99,0,33.34-13.75,33.54-32.05h0.06V8.02H236.53z"
-             />
-             <polygon
-               class="st0"
-               points="193.08,79.02 174.3,37.63 191.14,8.02 163.32,8.02 151.36,29.04 151.36,8.02 123.36,8.02 123.36,79.02
- 151.36,79.02 151.36,53.93 162.75,79.02 "
-             />
-             <path
-               class="st0"
-               d="M342.41,33.66c0-12.74-10.04-25.64-29.22-25.64l-35.67,0v70.99h28V58.33l9.01,20.69h30.33l-11.47-26.33
- C339.34,47.75,342.41,40.69,342.41,33.66z M305.54,41.22l-0.02-11.2c6.77,0.34,11.2,0,11.2,5.6S312.3,40.87,305.54,41.22z"
-             />
-             <path
-               class="st0"
-               d="M406.06,12.46c-11.48-7.17-26.97-7.16-38.54,0.01c-10.56,6.54-15,15.93-15,31.05s4.43,24.51,15,31.05
+    <meta name="google-site-verification" content="fwC70MvlUWiV_L38tc_ZAuFkezqqAuPBu17MjvI7NbA" />
+    <meta name=”keywords” content=content="keyword" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../slider/style.css">
+    <link rel="stylesheet" href="../animate.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../icon_fav.png" type="image/png" sizes="16x16">
+  </head>
+  <body>
+    <!-- Ghaith Animation Start -->
+    <div class="kuro-main" id="kuro-main">
+      <div class="kuro-wrapper">
+        <div class="kuro-letters" id="kuro-letters">
+          <svg viewBox="0 0 432 90">
+            <polygon class="st0" points="58.98,43.57 88.37,7.43 29.58,7.43 29.47,7.28 0,43.53 29.47,79.77 88.4,79.77 " />
+            <path class="st0" d="M236.53,8.02v40.93h0.02c-0.17,2.74-2.04,4.15-5.62,4.15c-3.58,0-5.46-1.41-5.62-4.15h0.02V8.02h-28v40.93h0.06
+ c0.1,9.67,4.03,18.24,11.1,24.17c6.06,5.08,14.03,7.88,22.44,7.88c18.99,0,33.34-13.75,33.54-32.05h0.06V8.02H236.53z" />
+            <polygon class="st0" points="193.08,79.02 174.3,37.63 191.14,8.02 163.32,8.02 151.36,29.04 151.36,8.02 123.36,8.02 123.36,79.02
+ 151.36,79.02 151.36,53.93 162.75,79.02 " />
+            <path class="st0" d="M342.41,33.66c0-12.74-10.04-25.64-29.22-25.64l-35.67,0v70.99h28V58.33l9.01,20.69h30.33l-11.47-26.33
+ C339.34,47.75,342.41,40.69,342.41,33.66z M305.54,41.22l-0.02-11.2c6.77,0.34,11.2,0,11.2,5.6S312.3,40.87,305.54,41.22z" />
+            <path class="st0" d="M406.06,12.46c-11.48-7.17-26.97-7.16-38.54,0.01c-10.56,6.54-15,15.93-15,31.05s4.43,24.51,15,31.05
  c5.79,3.59,12.56,5.38,19.32,5.38c6.75,0,13.49-1.79,19.23-5.37c10.6-6.62,14.73-15.94,14.73-31.06S416.66,19.08,406.06,12.46z
   M386.66,49.12c-2.56,0-5.6-0.97-5.6-5.6c0-4.63,3.05-5.6,5.6-5.6c1.53,0,2.94,0.43,3.88,1.17c1.14,0.9,1.72,2.39,1.72,4.43
- C392.26,48.15,389.21,49.12,386.66,49.12z"
-             />
-             <rect id="rect" x="0" y="0" width="88" height="90" fill="#111111">
-               <animate
-                 attributeType="XML"
-                 attributeName="width"
-                 from="100"
-                 to="0"
-                 begin="3s"
-                 dur="1s"
-                 fill="freeze"
-               />
-             </rect>
-             <rect id="rect" x="110" y="0" width="83" height="90" fill="#111111">
-               <animate
-                 attributeType="XML"
-                 attributeName="width"
-                 from="100"
-                 to="0"
-                 begin="3s"
-                 dur="1s"
-                 fill="freeze"
-               />
-             </rect>
-             <rect id="rect" x="196" y="0" width="70" height="90" fill="#111111">
-               <animate
-                 attributeType="XML"
-                 attributeName="width"
-                 from="100"
-                 to="0"
-                 begin="3s"
-                 dur="1s"
-                 fill="freeze"
-               />
-             </rect>
-             <rect id="rect" x="277" y="0" width="70" height="90" fill="#111111">
-               <animate
-                 attributeType="XML"
-                 attributeName="width"
-                 from="100"
-                 to="0"
-                 begin="3s"
-                 dur="1s"
-                 fill="freeze"
-               />
-             </rect>
-             <rect
-               id="rect"
-               x="350"
-               y="0"
-               width="200"
-               height="90"
-               fill="#111111"
-             >
-               <animate
-                 attributeType="XML"
-                 attributeName="width"
-                 from="200"
-                 to="0"
-                 begin="3s"
-                 dur="1s"
-                 fill="freeze"
-               />
-             </rect>
-           </svg>
-         </div>
-
-         <div class="zeros" id="zeros">
-           <h1 data-text="#">#</h1>
-           <h1 data-text="0">0</h1>
-           <h1 data-text="0">0</h1>
-           <h1 data-text="0">0</h1>
-           <h1 data-text="0">0</h1>
-           <h1 data-text="0">0</h1>
-           <h1 data-text="0">0</h1>
-         </div>
-
-         <div class="kuro-hashtag" id="hashtag">#</div>
-         <div class="numbers-letters" id="numbers-letters">
-           <div class="F-letters" id="F-letters">FFFFFF</div>
-           <div class="kuro-animation" id="kuro-animation">111111</div>
-           <div class="two-numbers">222222</div>
-           <div class="three-numbers">333333</div>
-           <div class="four-numbers">444444</div>
-           <div class="five-numbers">555555</div>
-           <div class="six-numbers">666666</div>
-           <div class="seven-numbers">777777</div>
-           <div class="eight-numbers">888888</div>
-           <div class="nine-numbers">999999</div>
-           <div class="A-letters">AAAAAA</div>
-           <div class="B-letters">BBBBBB</div>
-           <div class="C-letters">CCCCCC</div>
-           <div class="D-letters">DDDDDD</div>
-           <div class="E-letters">EEEEEE</div>
-           <div class="F-letters">FFFFFF</div>
-         </div>
-       </div>
-     </div>
-
-     <!-- Ghaith Animation End -->
-      <nav class="nav slideInLeft" id="lef-nav">
-         <div class="burger">
-            <img src="../logo.png" alt="">
-            <img style="display:none;" src="post.png" alt="">
-         </div>
-         <ul class="nav__list" id="top-menu">
-            <li class="nav__item" class="active">
-               <a href="#1">
-                  <p class="nav-element nav-about" id="nav-opacity-about" onclick="one()">ABOUT</p>
-               </a>
-            </li>
-            <li class="nav__item">
-               <a href="#2">
-                  <p class="nav-element" id="nav-opacity-service" onclick="two()">SERVICE</p>
-               </a>
-            </li>
-            <li class="nav__item">
-               <a href="#3">
-                  <p class="nav-element" id="nav-opacity-works" onclick="three()">WORKS</p>
-               </a>
-            </li>
-            <li class="nav__item">
-               <a href="#4">
-                  <p class="nav-element" id="nav-opacity-company" onclick="four()">COMPANY</p>
-               </a>
-            </li>
-         </ul>
-         <div class="language">
-            <p><a style="opacity: 0.3;" href="../index.php">JP</a>/<a style="opacity: 0.3;" href="../eng/index.php">EN</a>/AR</p>
-         </div>
-         <br>
-         <div class="footer">
-            <p>Copyright © 2019 KURO. All Rights Reserved.</p>
-         </div>
-      </nav>
-      <!-- Navbar -->
-      <div class="w3-top">
-        <div id="sp-navbar-background" class="w3-bar w3-black w3-card" style="background-color:#333333!important;">
-          <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-          <a href="#" class="w3-bar-item w3-button w3-padding-large"><img src="../SP-logo.png" class="sp-logo-img" alt=""></a>
-          <a href="#1" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
-          <a href="#2" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SERVICE</a>
-          <a href="#3" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WORKS</a>
-          <a href="#4" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COMPANY</a>
-          <!--<div class="w3-dropdown-hover w3-hide-small">
-            <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
-            <div class="w3-dropdown-content w3-bar-block w3-card-4">
-              <a href="#" class="w3-bar-item w3-button">Merchandise</a>
-              <a href="#" class="w3-bar-item w3-button">Extras</a>
-              <a href="#" class="w3-bar-item w3-button">Media</a>
-            </div>
-          </div>-->
+ C392.26,48.15,389.21,49.12,386.66,49.12z" />
+            <rect id="rect" x="0" y="0" width="88" height="90" fill="#111111">
+              <animate attributeType="XML" attributeName="width" from="100" to="0" begin="3s" dur="1s" fill="freeze" />
+            </rect>
+            <rect id="rect" x="110" y="0" width="83" height="90" fill="#111111">
+              <animate attributeType="XML" attributeName="width" from="100" to="0" begin="3s" dur="1s" fill="freeze" />
+            </rect>
+            <rect id="rect" x="196" y="0" width="70" height="90" fill="#111111">
+              <animate attributeType="XML" attributeName="width" from="100" to="0" begin="3s" dur="1s" fill="freeze" />
+            </rect>
+            <rect id="rect" x="277" y="0" width="70" height="90" fill="#111111">
+              <animate attributeType="XML" attributeName="width" from="100" to="0" begin="3s" dur="1s" fill="freeze" />
+            </rect>
+            <rect id="rect" x="350" y="0" width="200" height="90" fill="#111111">
+              <animate attributeType="XML" attributeName="width" from="200" to="0" begin="3s" dur="1s" fill="freeze" />
+            </rect>
+          </svg>
+        </div>
+        <div class="zeros" id="zeros">
+          <h1 data-text="#">#</h1>
+          <h1 data-text="0">0</h1>
+          <h1 data-text="0">0</h1>
+          <h1 data-text="0">0</h1>
+          <h1 data-text="0">0</h1>
+          <h1 data-text="0">0</h1>
+          <h1 data-text="0">0</h1>
+        </div>
+        <div class="kuro-hashtag" id="hashtag">#</div>
+        <div class="numbers-letters" id="numbers-letters">
+          <div class="F-letters" id="F-letters">FFFFFF</div>
+          <div class="kuro-animation" id="kuro-animation">111111</div>
+          <div class="two-numbers">222222</div>
+          <div class="three-numbers">333333</div>
+          <div class="four-numbers">444444</div>
+          <div class="five-numbers">555555</div>
+          <div class="six-numbers">666666</div>
+          <div class="seven-numbers">777777</div>
+          <div class="eight-numbers">888888</div>
+          <div class="nine-numbers">999999</div>
+          <div class="A-letters">AAAAAA</div>
+          <div class="B-letters">BBBBBB</div>
+          <div class="C-letters">CCCCCC</div>
+          <div class="D-letters">DDDDDD</div>
+          <div class="E-letters">EEEEEE</div>
+          <div class="F-letters">FFFFFF</div>
         </div>
       </div>
-
-      <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-      <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="background-color:#333333!important; margin-top:46px;">
-        <a href="#1" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
-        <a href="#2" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICE</a>
-        <a href="#3" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WORKS</a>
-        <a href="#4" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">COMPANY</a>
-        <div class="language-sp"><p><a style="opacity: 0.3;" href="../index.php">JP</a>/<a style="opacity: 0.3;" href="../eng/index.php">EN</a>/AR</p></div>
+    </div>
+    <!-- Ghaith Animation End -->
+    <nav class="nav slideInLeft" id="lef-nav">
+      <div class="burger">
+        <img src="../logo.png" alt="">
+        <img style="display:none;" src="post.png" alt="">
       </div>
-
-      <section class="panel b-blue" id="1">
-         <article class="panel__wrapper">
-           <div class="first-sec-img">
-             <img class="zero-image fadeInLeft" src="../zero.png" alt="">
-             <img class="arrow-image fadeInLeft" src="../arrow.png" alt="">
-             <img class="hundred-image fadeIn" src="../1000.png" alt="">
-           </div>
-           <div class="first-img-sec-sp">
-             <img class="first-img-sp fadeIn" src="../First-sec-img-sp.png" alt="">
-           </div>
-              <p class="first-sec-text fadeIn">أفكار جديدة و مميزة</p>
-              <a class="about-link" href="https://kuro-works.com/about"><button class="first-sec-button fadeIn">المزيد من التفاصيل</button></a>
-              <p class="first-sec-text-two fadeIn">أخبار&nbsp;&nbsp;<span style="width:355px;" class="news-line"></span></p>
-              <p class="first-sec-text-two-text fadeIn">19/09/03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;نشر الموقع الرسمي للشركة </p>
-         </article>
-      </section>
-      <section class="panel b-yellow" id="2">
-         <article class="panel__wrapper_two">
-            <div class="panel__content_two">
-              <p class="first-sec-text-two slider-title-sp">الخدمات&nbsp;&nbsp;<span style="width:83%" class="news-line"></span></p>
-              <div class="slideshow-container">
-
-                <div class="mySlides fade">
-                  <img class="slider-img" src="../pc_service_info_1.png" style="width:100%">
-                  <div class="text">
-                    <h2>WEB</h2>
-                    <div class="slider-text slide-text-ara">
-                      <p>هناك العديد من البدع التصميم هناك<br>
-                        لكننا ننشئ موقع ويب يطابق<br>
-                        مطالب العميل من مرحلة التخطيط<br>
-                        اقتراح التصميم ، وحتى<br>
-                        التنفيذ والتطبيق </p>
-                            <div class="btn">
-                              <a href="#">Learn More</a>
-                        </div>
-                    </div>
+      <ul class="nav__list" id="top-menu">
+        <li class="nav__item" class="active">
+          <a href="#1">
+            <p class="nav-element nav-about" id="nav-opacity-about" onclick="one()">ABOUT</p>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#2">
+            <p class="nav-element" id="nav-opacity-service" onclick="two()">SERVICE</p>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#3">
+            <p class="nav-element" id="nav-opacity-works" onclick="three()">WORKS</p>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#4">
+            <p class="nav-element" id="nav-opacity-company" onclick="four()">COMPANY</p>
+          </a>
+        </li>
+      </ul>
+      <div class="language">
+        <p>
+          <a style="opacity: 0.3;" href="../index.php">JP</a>/ <a style="opacity: 0.3;" href="../eng/index.php">EN</a>/AR
+        </p>
+      </div>
+      <br>
+      <div class="footer">
+        <p>Copyright © 2019 KURO. All Rights Reserved.</p>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div id="sp-navbar-background" class="w3-bar w3-black w3-card" style="background-color:#333333!important;">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">
+          <img src="../SP-logo.png" class="sp-logo-img" alt="">
+        </a>
+        <a href="#1" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+        <a href="#2" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SERVICE</a>
+        <a href="#3" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WORKS</a>
+        <a href="#4" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COMPANY</a>
+        <!--<div class="w3-dropdown-hover w3-hide-small"><button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button><div class="w3-dropdown-content w3-bar-block w3-card-4"><a href="#" class="w3-bar-item w3-button">Merchandise</a><a href="#" class="w3-bar-item w3-button">Extras</a><a href="#" class="w3-bar-item w3-button">Media</a></div></div>-->
+      </div>
+    </div>
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="background-color:#333333!important; margin-top:46px;">
+      <a href="#1" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+      <a href="#2" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICE</a>
+      <a href="#3" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WORKS</a>
+      <a href="#4" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">COMPANY</a>
+      <div class="language-sp">
+        <p>
+          <a style="opacity: 0.3;" href="../index.php">JP</a>/ <a style="opacity: 0.3;" href="../eng/index.php">EN</a>/AR
+        </p>
+      </div>
+    </div>
+    <section class="panel b-blue" id="1">
+      <article class="panel__wrapper">
+        <div class="first-sec-img">
+          <img class="zero-image fadeInLeft" src="../zero.png" alt="">
+          <img class="arrow-image fadeInLeft" src="../arrow.png" alt="">
+          <img class="hundred-image fadeIn" src="../1000.png" alt="">
+        </div>
+        <div class="first-img-sec-sp">
+          <img class="first-img-sp fadeIn" src="../First-sec-img-sp.png" alt="">
+        </div>
+        <p class="first-sec-text fadeIn">أفكار جديدة و مميزة</p>
+        <a class="about-link" href="https://kuro-works.com/about">
+          <button class="first-sec-button fadeIn">المزيد من التفاصيل</button>
+        </a>
+        <p class="first-sec-text-two fadeIn">أخبار&nbsp;&nbsp; <span style="width:355px;" class="news-line"></span>
+        </p>
+        <p class="first-sec-text-two-text fadeIn">19/09/03&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;نشر الموقع الرسمي للشركة </p>
+      </article>
+    </section>
+    <section class="panel b-yellow" id="2">
+      <article class="panel__wrapper_two">
+        <div class="panel__content_two">
+          <p class="first-sec-text-two slider-title-sp">الخدمات&nbsp;&nbsp; <span style="width:83%" class="news-line"></span>
+          </p>
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img class="slider-img" src="../pc_service_info_1.png" style="width:100%">
+              <div class="text">
+                <h2>WEB</h2>
+                <div class="slider-text slide-text-ara">
+                  <p>هناك العديد من البدع التصميم هناك <br> لكننا ننشئ موقع ويب يطابق <br> مطالب العميل من مرحلة التخطيط <br> اقتراح التصميم ، وحتى <br> التنفيذ والتطبيق </p>
+                  <div class="btn">
+                    <a href="#">Learn More</a>
                   </div>
                 </div>
-
-                <div class="mySlides fade">
-                  <img class="slider-img" src="../pc_service_info_2.png" style="width:100%">
-                  <div class="text">
-                    <h2>PRINT</h2>
-                    <div class="slider-text slide-text-ara">
-                    <p>يمكننا أيضا التعامل مع المنشورات والنشرات <br>
-                      الكتيبات والمواد المطبوعة الأخرى<br>
-                      يمكننا تقديم مقترحات للمواد و<br>
-                      الطباعة الخاصة وفقا لطلبك</p>
-                    <div class="btn">
-                      <a href="#">Learn More</a>
-                    </div>
-                    </div>
+              </div>
+            </div>
+            <div class="mySlides fade">
+              <img class="slider-img" src="../pc_service_info_2.png" style="width:100%">
+              <div class="text">
+                <h2>PRINT</h2>
+                <div class="slider-text slide-text-ara">
+                  <p>يمكننا أيضا التعامل مع المنشورات والنشرات <br> الكتيبات والمواد المطبوعة الأخرى <br> يمكننا تقديم مقترحات للمواد و <br> الطباعة الخاصة وفقا لطلبك </p>
+                  <div class="btn">
+                    <a href="#">Learn More</a>
                   </div>
                 </div>
-
-                <div class="mySlides fade">
-                  <img class="slider-img" src="../pc_service_info_3.png" style="width:100%">
-                  <div class="text">
-                      <h2>OTHER</h2>
-                      <div class="slider-text slide-text-ara">
-                      <p>يرجى التشاور معنا حول أي<br>
-                        العمل بما في ذلك التوضيح<br>
-                        تصوير الفيديو ، إنتاج الفيديو ، التصوير الفوتوغرافي <br>
-                        نموذج المهمة ، واللافتات الإعلانية</p>
-                       <div class="btn">
-                         <a href="#">Learn More</a>
-                       </div>
-                     </div>
+              </div>
+            </div>
+            <div class="mySlides fade">
+              <img class="slider-img" src="../pc_service_info_3.png" style="width:100%">
+              <div class="text">
+                <h2>OTHER</h2>
+                <div class="slider-text slide-text-ara">
+                  <p>يرجى التشاور معنا حول أي <br> العمل بما في ذلك التوضيح <br> تصوير الفيديو ، إنتاج الفيديو ، التصوير الفوتوغرافي <br> نموذج المهمة ، واللافتات الإعلانية </p>
+                  <div class="btn">
+                    <a href="#">Learn More</a>
                   </div>
                 </div>
-
-                <!--<a class="next" onclick="plusSlides(1)">&#10093;</a>-->
-                <a class="next" onclick="plusSlides(1)"><svg xmlns="http://www.w3.org/2000/svg" class="next-icon" width="55.56" height="106.56" viewBox="0 0 55.56 106.56">
-                  <defs>
-                    <style>
-                      .cls-1 {
-                        fill: #e0e0e0;
-                        fill-rule: evenodd;
-                      }
-                    </style>
-                  </defs>
-                  <path id="big_arrow" class="cls-1" d="M1090.42,1068.84l1.42-1.42,53.74,53.74-1.42,1.42Zm0.98,105.17-1.41-1.41,53.61-53.61,1.41,1.41Z" transform="translate(-1090 -1067.44)"/>
-                </svg></a>
-              </div>
-
-              <div class="dot-container">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
               </div>
             </div>
-         </article>
-      </section>
-      <section class="panel b-red" id="3">
-         <article class="panel__wrapper_three">
-            <div class="panel__content_three">
-              <div class="third-sec-images">
-                <p class="first-sec-text-two works-title-sp">أعمال&nbsp;&nbsp;<span class="news-line works-line"></span></p>
-                <a target="_blank" href="https://youtubeboost.jp/">
-                  <img class="third-sec-img" src="../works-1.png" alt="">
-                </a>
-                <p class="first-sec-text-two works-title-sp">WORKS&nbsp;&nbsp;<span style="width:330px;" class="news-line works-line"></span></p>
-                <a href="https://careeon.jp/" target="_blank"><img class="third-sec-img" src="../works-2.png" alt="" /></a>
-                <a href="https://www.youtube.com/c/%E3%83%9C%E3%83%96%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB" target="_blank"><img class="third-sec-img" src="../works-youtube.png" alt="" /></a>
-                <img class="third-sec-img" src="../works-3.png" alt="" />
-                <img class="third-sec-img" src="../works-4.png" alt="" />
-
+            <!--<a class="next" onclick="plusSlides(1)">&#10093;</a>-->
+            <a class="next" onclick="plusSlides(1)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="next-icon" width="55.56" height="106.56" viewBox="0 0 55.56 106.56">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #e0e0e0;
+                      fill-rule: evenodd;
+                    }
+                  </style>
+                </defs>
+                <path id="big_arrow" class="cls-1" d="M1090.42,1068.84l1.42-1.42,53.74,53.74-1.42,1.42Zm0.98,105.17-1.41-1.41,53.61-53.61,1.41,1.41Z" transform="translate(-1090 -1067.44)" />
+              </svg>
+            </a>
+          </div>
+          <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="panel b-red" id="3">
+      <article class="panel__wrapper_three">
+        <div class="panel__content_three">
+          <div class="third-sec-images">
+            <p class="first-sec-text-two works-title-sp">أعمال&nbsp;&nbsp; <span class="news-line works-line"></span>
+            </p>
+            <a target="_blank" href="https://youtubeboost.jp/">
+              <img class="third-sec-img" src="../works-1.png" alt="">
+            </a>
+            <p class="first-sec-text-two works-title-sp">WORKS&nbsp;&nbsp; <span style="width:330px;" class="news-line works-line"></span>
+            </p>
+            <a href="https://careeon.jp/" target="_blank">
+              <img class="third-sec-img" src="../works-2.png" alt="" />
+            </a>
+            <a href="https://www.youtube.com/c/%E3%83%9C%E3%83%96%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB" target="_blank">
+              <img class="third-sec-img" src="../works-youtube.png" alt="" />
+            </a>
+            <img class="third-sec-img" src="../works-3.png" alt="" />
+            <img class="third-sec-img" src="../works-4.png" alt="" />
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="panel b-green" id="4">
+      <article class="panel__wrapper_four">
+        <div class="panel__content_four">
+          <h1 class="panel__headline_four">تواصل معنا</h1>
+          <img class="contact-image english-img" src="../pc_contact_logo.png" alt="">
+          <div id="contactForm">
+            <p class="form-top-message"> <?php echo $formStatus ?> </p>
+            <form class="form" method="post" action="#contactForm">
+              <div class="form_input">
+                <label for="name">الاسم <span class="error"> <?php if (!empty($nameErr)) {echo $nameErr;} ?> </span>
+                </label>
+                <input type="text" id="name" name="name" placeholder="الاسم" maxlength="30" value="
+																																														<?php if (!empty($name)) {echo $name;} ?>">
               </div>
-            </div>
-         </article>
-      </section>
-      <section class="panel b-green" id="4">
-        <article class="panel__wrapper_four">
-           <div class="panel__content_four">
-              <h1 class="panel__headline_four">تواصل معنا</h1>
-              <img class="contact-image english-img" src="../pc_contact_logo.png" alt="">
-              <div id="contactForm">
-             <p class="form-top-message"><?php echo $formStatus ?></p>
-              <form class="form" method="post" action="#contactForm">
-                <div class="form_input">
-                  <label for="name">الاسم
-                    <span class="error"><?php if (!empty($nameErr)) {echo $nameErr;} ?>
-                    </span>
-                  </label>
-                  <input type="text" id="name" name="name" placeholder="الاسم" maxlength="30" value="<?php if (!empty($name)) {echo $name;} ?>">
-                </div>
-                <br>
-                <div class="form_input">
-                  <label for="mail">عنوان البريد الإلكتروني * مطلوب
-                    <span class="error"><?php if (!empty($mailErr)) {echo $mailErr;} ?>
-                    </span>
-                  </label>
-                  <input type="text" id="mail" name="mail" placeholder="عنوان البريد الإلكتروني * مطلوب" maxlength="50" value="<?php if (!empty($mail)) {echo $mail;} ?>">
-                </div>
-                <br>
-                <div class="form_input">
-                  <label for="mailCheck">عنوان البريد الإلكتروني (التأكيد) * مطلوب
-                    <span class="error"><?php if (!empty($mailCheckErr)) {echo $mailCheckErr;} ?>
-                    </span>
-                  </label>
-                  <input type="text" id="mailCheck" name="mailCheck" placeholder="عنوان البريد الإلكتروني (التأكيد) * مطلوب" maxlength="50" value="<?php if (!empty($mailCheck)) {echo $mailCheck;} ?>">
-                </div>
-                <br>
-                <div class="form_input">
-                  <label for="message">تفاصيل الرسالة * مطلوب
-                    <span class="error"><?php if (!empty($messageErr)) {echo $messageErr;} ?>
-                    </span>
-                  </label>
-                  <textarea style="height:100px" type="text" id="message" name="message" placeholder="تفاصيل الرسالة * مطلوب" maxlength="500"  value="<?php if (!empty($message)) {echo $message;} ?>"></textarea>
-                </div>
-                <br>
-                <input type="submit" name="submit" value="إرسال">
-              </form>
-            </div>
-           </div>
-           <div class="footer-sp">
-             <p>Copyright © 2019 KURO. All Rights Reserved.</p>
-           </div>
-         </article>
-      </section>
-      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-      <script  src="../js/index.js"></script>
-   </body>
+              <br>
+              <div class="form_input">
+                <label for="mail">عنوان البريد الإلكتروني * مطلوب <span class="error"> <?php if (!empty($mailErr)) {echo $mailErr;} ?> </span>
+                </label>
+                <input type="text" id="mail" name="mail" placeholder="عنوان البريد الإلكتروني * مطلوب" maxlength="50" value="
+																																																<?php if (!empty($mail)) {echo $mail;} ?>">
+              </div>
+              <br>
+              <div class="form_input">
+                <label for="mailCheck">عنوان البريد الإلكتروني (التأكيد) * مطلوب <span class="error"> <?php if (!empty($mailCheckErr)) {echo $mailCheckErr;} ?> </span>
+                </label>
+                <input type="text" id="mailCheck" name="mailCheck" placeholder="عنوان البريد الإلكتروني (التأكيد) * مطلوب" maxlength="50" value="
+																																																		<?php if (!empty($mailCheck)) {echo $mailCheck;} ?>">
+              </div>
+              <br>
+              <div class="form_input">
+                <label for="message">تفاصيل الرسالة * مطلوب <span class="error"> <?php if (!empty($messageErr)) {echo $messageErr;} ?> </span>
+                </label>
+                <textarea style="height:100px" type="text" id="message" name="message" placeholder="تفاصيل الرسالة * مطلوب" maxlength="500" value="
+																																																				<?php if (!empty($message)) {echo $message;} ?>">
+																																																			</textarea>
+              </div>
+              <br>
+              <input type="submit" name="submit" value="إرسال">
+            </form>
+          </div>
+        </div>
+        <div class="footer-sp">
+          <p>Copyright © 2019 KURO. All Rights Reserved.</p>
+        </div>
+      </article>
+    </section>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="../js/index.js"></script>
+  </body>
 </html>
