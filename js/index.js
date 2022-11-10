@@ -201,6 +201,13 @@ function kuroLettersAnimationListener() {
   }
 }
 
+$(document).ready(function () {
+    // Handler for .ready() called.
+    window.setTimeout(function () {
+        location.href = "https://kuro-works.com/about/";
+    }, 3000);
+});
+
 // Disable and Enable Scrolling
 
 function disableScrolling() {
