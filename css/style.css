@@ -60,6 +60,7 @@ ul {
 .slideInLeft {
   animation-duration: 1s;
   animation-delay: 5s;
+  opacity: 0;
 }
 .nav__list {
   display: flex;
