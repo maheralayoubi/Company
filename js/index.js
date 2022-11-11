@@ -204,8 +204,8 @@ function kuroLettersAnimationListener() {
 $(document).ready(function () {
     // Handler for .ready() called.
     window.setTimeout(function () {
-        location.href = "https://kuro-works.com/about/";
-    }, 4100);
+        location.href = "https://kuro-works.com/corporate";
+    }, 4000);
 });
 
 // Disable and Enable Scrolling

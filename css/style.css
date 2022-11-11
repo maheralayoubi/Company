@@ -230,6 +230,7 @@ ul {
 }
 .first-sec-img {
   display: inline-block;
+  opacity: 0;
   width: 105rem;
   margin-left: 25rem;
   margin-top: -1rem;
@@ -395,6 +396,7 @@ ul {
 
 .panel__wrapper_two {
   width: 80rem;
+  opacity: 0;
   padding-right: 30px;
   padding-left: 10px;
   -webkit-perspective: 1000px;
@@ -410,6 +412,7 @@ ul {
 }
 .panel__content_four p {
   color: #ffff;
+    opacity: 0;
   font-size: 20px;
   margin: 0px 0 20px 0;
   line-height: 1.5;
@@ -695,6 +698,7 @@ label {
   }
   .third-sec-images {
     margin-left: 9rem;
+    opacity: 0;
   }
   .panel__wrapper_four {
     margin-left: 6rem;
@@ -756,6 +760,7 @@ label {
   }
   .panel__wrapper_two {
     width: 100%;
+
     margin-right: 2rem;
     margin-left: 3.5rem;
     margin-bottom: 3rem;
@@ -888,6 +893,7 @@ label {
   .panel__wrapper {
     padding: 0 0 0 2.5rem;
     width: 100%;
+    opacity: 0;
   }
   .first-sec-button {
     font-size: 12px;
